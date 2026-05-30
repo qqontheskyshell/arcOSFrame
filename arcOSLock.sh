@@ -1,4 +1,4 @@
-```bash
+
 
 (genlock arcOSLock)=$arcOSSyntaxKit[0]
 lockdir="$HOME/"
