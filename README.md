@@ -8,5 +8,7 @@ Kuma Namkyu Ryoo
 creator of defensive codes for packet fragment threat specifically only working in OSX via solfincode in github but...lost access on solfincode repo and source codes. it was built by Kuma Namkyu using bash, scapy python script and dynamically closing port on packet filter from openBSD modules including in OSX etc
 
 https://mastodon.social/@qqontheskyshell
+
 https://medium.com/@qqontheskyshell
+
 https://publish.obsidian.md/qqontheskyshell
