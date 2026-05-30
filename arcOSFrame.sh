@@ -20,7 +20,7 @@ lldbFrame(){
     OPEN_PORT=$('lsof -nP -iTCP:8080 | grep $STATE &' 'netstat -atp tcp | grep $STATE' &) &
 	APPLE_PORT=('$(system_profiler SPiBridgeDataType | grep -i "T2 Security")' '$(system_profiler SPUSBDataType | grep -B 2 "Apple Internal Keyboard / Trackpad")'
 )
-    ARCOS_PORT=($APPLE_PORT 2* 3* 4* usbProductID 50*** 54*** 70** 876* 1080* 80*** 13*** 50*** 54*** $OPEN_PORT & $commcenterPort & exit 0 &) &
+    ARCOS_PORT=($APPLE_PORT 2* 3* 4* usbProductID 50*** 54*** 70** 876* 1080* 80*** 13*** 50*** 54*** $OPEN_PORT & $commcenterPort & $arcOSframePort & exit 0 &) &
     commcenterPort=$(find /dev -maxdepth 1 \\( -name '\*baseband\*' -o -name 'dlci\*' -o -name 'mux\*' -o -name 'tty\*' \\) 2>/dev/null | sort
 )
 
