@@ -9,4 +9,4 @@ creator of defensive codes for packet fragment threat specifically only working 
 
 https://mastodon.social/@qqontheskyshell
 https://medium.com/@qqontheskyshell
-https://publish.obsidian.md/qqontheskyshell/Kuma+Namkyu%E2%80%99s+Insight/about+me/
+https://publish.obsidian.md/qqontheskyshell
