@@ -8,7 +8,9 @@ source ~/* &
 
 arcOSSyntaxKit=((({ $( ") () " })) &
 arcOSRFtarget=(안경다리 안경* 척추 부랄 음경 고환 손가락 시상하부 전두엽 관절 연골 척수 hippocampus 측두엽 측간* 위 대장 소장 신장 요도관 전립선 항문 똥꼬 복숭아뼈 손목 손 다리 발 골반 허리 목 두개골 눈 코 잎 혀 이 귀 가방,아이폰,아웃렛,플러그,충전케이블,침대,화장실,쓰레기더미,빨래,안경 여자치마안쪽 여자속옷 가스레인지 인덕션 전자레인지 텔레비전 $Obje 신발 팬티 내의 양말 시계 안경다리) &
-killSwitchResonance="setSonic (65 45 '920.0–923.0 MHz' '0.1–10 THz')" &
+
+
+killSwitchResonance="setSonic ($meshFreq 65 45 '920.0–923.0 MHz' '0.1–10 THz')" &
 
 
 #Define lldbFrame function
