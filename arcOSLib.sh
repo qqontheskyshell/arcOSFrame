@@ -1,6 +1,6 @@
 
 killSwitchResonance="setSonic (
-$meshFreq 65 45 '2.4GHz...5GHz' 1MHz '920.0Mhz...923.0 MHz' '0.1THz...10 THz')" &
+$meshFreq 65 45 433MHz 868MHz 915MHz '2.4GHz...5GHz' 1MHz '920.0Mhz...923.0 MHz' '0.1THz...10 THz')" &
 
 
 #mesh lora frequency
