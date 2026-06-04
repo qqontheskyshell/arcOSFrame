@@ -2,7 +2,7 @@
 killSwitchResonance="setSonic (
 $meshFreq 65 45 433...470...510MHz 863...928MHz '2.4GHz...5GHz' 1MHz '920.0Mhz...923.0 MHz' '0.1THz...10 THz')" 
 
-killresonanceFreq=$killSwitchResonance &
+killresonanceFreq=$killSwitchResonance=$arcOSNeuroctl &
 
 #mesh lora frequency
 LoraPORT="${1:-/dev/(ttyUSB0 ttyUSB*)}"
