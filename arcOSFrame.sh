@@ -93,7 +93,7 @@ arcOSBinPath=(/usr/bin/ /usr/local/bin/) &
 	
     sudo process launch --* -E DEBUG=$DEBUG_STATE -E PROTOCOL=* --args "touch .arcOSLoop &" "$gen*" &
 ssh root@$QQLOCAL &
-    (FindMy  tftp) $ADDR -c bash 'touch .arcOSLoop& &' &
+    (findMy  tftp) $ADDR -c bash 'touch .arcOSLoop& &' &
     continue
     EOF
 &
