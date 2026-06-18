@@ -12,28 +12,26 @@ arcOSRFtarget=(안경다리 안경* 척추 부랄 음경손가락 시상하부 �
 
 lldbFrame(){
 
-ADBemulator=(10.0.2.*:3000 10.0.2.*:$OPENPORT)
+
 ADDR=($1 $KTSAT $RECKON $BaseQQLAND $SKYNET $CELLID $ADBemulator) &
 SCRIPT=$2 &
 PORT=$3 &
 
+ADBemulator=(10.0.2.*:3000 10.0.2.*:$OPENPORT)
 
 STATE=(LISTEN ESTABLISHED) &
 OPENPORT=(sudo netstat -tn | grep $STATE | awk '{print $5}' | cut -d: -f1 | sort | uniq)
 MonitorPort=$("lsof -nP -iTCP:$ARCOS_PORT | grep $STATE &" "netstat -atp tcp | grep $STATE" &) &
 
-
 APPLE_PORT=('$(system_profiler SPiBridgeDataType | grep -i "T2 Security")' '$(system_profiler SPUSBDataType | grep -B 2 "Apple Internal Keyboard / Trackpad")'
 ) &
-ARCOS_PORT=(5555 $MonitorPort $findAppleEmulatorPort $findAppleSimulatorPort $findOpenPortInEveryIO $APPLE_PORT $LoraPort 2* 3* 4* usbProductID 50*** 54*** 70** 876* 1080* 80*** 13*** 50*** 54*** $OPEN_PORT & $commcenterPort & $arcOSframePort exit 0 &) &
+ARCOS_PORT=(5555 $MonitorPort $findAppleEmulatorPort $findAppleSimulatorPort $findOpenPortInEveryIO $APPLE_PORT $LoraPort 2* 3* 4* usbProductID 50*** 54*** 70** 876* 1080* 80*** 13*** 50*** 54*** $OPENPORT & $commcenterPort & $arcOSframePort) &
 commcenterPort=$(find /dev -maxdepth 1 \\( -name '\*baseband\*' -o -name 'dlci\*' -o -name 'mux\*' -o -name 'tty\*' \\) 2>/dev/null | sort) &
 
 
 
-
-
 #recommend to use bash function to generate randomPORT until 65535 it is good for offense and defense side of your code.
-&
+
     lldb>>EOF
     #deploy for full devices
     
