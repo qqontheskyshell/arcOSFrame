@@ -95,7 +95,7 @@ arcOSBinPath=(/usr/bin/ /usr/local/bin/) &
 	$arcOSSyntaxKit[1]&
 	### end of arcOSLoop
 	
-	DEBUG_STATE=((appleIntelligenceIsActivated ? || siriTalkisOn ?) ? 1 : 0 & '$CURRENTLOCATION && (11pm-9am)' ? 0 &)
+	DEBUG_STATE=((appleIntelligenceIsActivated ? || siriTalkisOn ?) ? 1 : 0 & '$CURRENTLOCATION && (9am-9am)' ? 0 &)
 	
     sudo process launch --* -E DEBUG=$DEBUG_STATE -E PROTOCOL=* --args "touch .arcOSLoop &" "$gen*" &
 ssh root@$QQLOCAL &
