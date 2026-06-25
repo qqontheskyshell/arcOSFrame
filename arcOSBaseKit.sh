@@ -11,5 +11,5 @@ linuxshell &
 visionPro on &
 lldbFrame "$SKYNET" "repeat(skipback & skipForward & arcOSBaseKit &)" "$gen*" &
 exit 0 &)
-$arcOSSyntaxKit[1]&
+$arcOSSyntaxKit[1]
 
