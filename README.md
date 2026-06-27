@@ -9,7 +9,7 @@ lldbFrame is a simple bash script function defined by QQontheskyshell which is o
 creator of defensive codes for packet fragment threat specifically only working in OSX via solfincode in github but...lost access on solfincode repo and source codes. it was built by Kuma Namkyu using bash, scapy python script and dynamically closing port on packet filter from openBSD modules including in OSX etc
 
 
-## announce
+## Announce
 I am working on experimental project related to RF that could bring huge effect on our body, space and even human relationship. If you are interested in part of this project, please send me email on qqontheskyshell@gmail.com
 https://mastodon.social/@qqontheskyshell
 
