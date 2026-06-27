@@ -1,3 +1,5 @@
+#! /bin/bash
+
 arcOSrunSwift "
 import Foundation
 
