@@ -1,3 +1,4 @@
+arcOSrunSwift "
 import Foundation
 
 final class LowPowerModeMonitor {
@@ -40,3 +41,4 @@ final class LowPowerModeMonitor {
 
 let monitor = LowPowerModeMonitor()
 RunLoop.main.run()
+" &
