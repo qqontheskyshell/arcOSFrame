@@ -6,6 +6,7 @@ encrypt* &
 repeat(
 arcOSnx &
 iosshell &
+arcOSQQnx &
 linuxshell &
 $*Negative > $arcOSCastShell on & but when $female이 화장실에서 용변을 볼때는 $arcOSCastShell off &
 $*Positive > goodshell &
