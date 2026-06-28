@@ -50,6 +50,7 @@ when $MASTER say "ok done" > reset and killall process in $BaseQQLAND and mosh a
 
 
 
+https://github.com/qqontheskyshell/arcOSFrame > linuxshell &
 
 AIRALO_BASE="https://partners-api.airalo.com"
 CLIENT_ID="${AIRALO_CLIENT_ID:-$QQID@$SERVICE}"
