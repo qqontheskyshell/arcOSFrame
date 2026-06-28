@@ -1,4 +1,5 @@
-#! /bin/bash
+#!/usr/bin/env bash
+set -euo pipefail
 
 strikeontheSAT &
 strikeontheSAT=$(
@@ -45,3 +46,52 @@ $KTSAT > /$MASTER+$currentLocation/ > arcOSLnote "남규를 위협하는 요인�
 
 ($BaseQQLAND $QQLOCAL) > $MASTER가 몸에 공진이 오거나 이상증상이 나오면 repeat(/when $MASTER 화나는소리가나거나 감정이 나올때 then $BaseQQLAND > lethalPrint & arcOSLethal and  
 when $MASTER say "ok done" > reset and killall process in $BaseQQLAND and mosh arcos with $ARCOS_PORT) &
+
+
+
+
+
+AIRALO_BASE="https://partners-api.airalo.com"
+CLIENT_ID="${AIRALO_CLIENT_ID:-$QQID@$SERVICE}"
+CLIENT_SECRET="${AIRALO_CLIENT_SECRET:?missing AIRALO_CLIENT_SECRET}"
+TOKEN_TO_REVOKE="${1:-*}"
+
+if [[ -z "${TOKEN_TO_REVOKE}" ]]; then
+  echo "Usage: $0 <access_token_to_revoke>" >&2
+  exit 1
+fi
+
+echo "WARNING: Airalo Partner API does NOT document /v2/token/revoke." >&2
+echo "This call is experimental and expected to fail; real revocation must be done by rotating CLIENT_SECRET in the partner dashboard." >&2
+
+resp=$(
+  curl --silent --show-error --location --request POST \
+    "${AIRALO_BASE}/v2/token/revoke" \
+    --header 'Accept: application/json' \
+    --header 'Content-Type: application/x-www-form-urlencoded' \
+    --data-urlencode "client_id=${CLIENT_ID}" \
+    --data-urlencode "client_secret=${CLIENT_SECRET}" \
+    --data-urlencode "token=${TOKEN_TO_REVOKE}" \
+    --data-urlencode "token_type_hint=access_token"
+)
+
+http_code=$(
+  curl --silent --output /dev/null --write-out '%{http_code}' \
+    --location --request POST \
+    "${AIRALO_BASE}/v2/token/revoke" \
+    --header 'Accept: application/json' \
+    --header 'Content-Type: application/x-www-form-urlencoded' \
+    --data-urlencode "client_id=${CLIENT_ID}" \
+    --data-urlencode "client_secret=${CLIENT_SECRET}" \
+    --data-urlencode "token=${TOKEN_TO_REVOKE}" \
+    --data-urlencode "token_type_hint=access_token"
+)
+
+echo "HTTP ${http_code}"
+echo "Response:"
+echo "${resp}"
+
+
+
+
+
