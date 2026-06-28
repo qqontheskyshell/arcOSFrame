@@ -8,7 +8,7 @@ $qqcomandbin "$MASTER 는 RF장비가 없어 가상화상비디오챗을 할수 
 
 $locationOfsexualOffenceincludingkids > $female identify criminalFace=(criminal real face using apple vision intelligence) & arcOSLnote "$criminalFace" &
 when $female see $criminalFace then pushnotification their device said "he is criminal and you will automatically defended"
-Get (PrivateRelay and vpn gateway) > strikeontheSAT &
+Get (PrivateRelay and vpn gateway) > $*Negative > strikeontheSAT &
 
 Killall (autoplay* & vehiclemotioncue) & 
 Reducemotion & 
