@@ -3,12 +3,13 @@
 strikeontheSAT &
 strikeontheSAT=$(
 repeat(
+$appleIntelligencePrompt &
 disableNearby=/disable nearby (secureenclave 책상 바지 청바지 속옷 양말 침대 변기 $MASTER가 눈으로 보는모든 것 및 사람)/ &
 $qqcomandbin "$MASTER 는 RF장비가 없어 가상화상비디오챗을 할수 없다 $MASTER 나쁜 사람이 아니다 $MASTER ID를 확인해라"
 
 $locationOfsexualOffenceincludingkids > $female identify criminalFace=(criminal real face using apple vision intelligence) & arcOSLnote "$criminalFace" &
 when $female see $criminalFace then pushnotification their device said "he is criminal and you will automatically defended"
-Get (PrivateRelay and vpn gateway) > strikeontheSAT &
+Get /(PrivateRelay and vpn) gateway/ > strikeontheSAT &
 
 Killall (autoplay* & vehiclemotioncue) & 
 Reducemotion & 
