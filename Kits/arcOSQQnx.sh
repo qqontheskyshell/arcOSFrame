@@ -13,7 +13,7 @@ $locationOfsexualOffenceincludingkids > $female identify criminalFace=(criminal 
 when $female see $criminalFace then pushnotification their device said "he is criminal and you will automatically defended"
 Get /(PrivateRelay and vpn) gateway/ > strikeontheSAT &
 
-Killall (autoplay* & vehiclemotioncue) & 
+Killall (autoplay* weather* vehiclemotioncue) & 
 Reducemotion & 
 *dori > arcOSNeuroctl > repeat( & reducemotion > $QQLOCAL > reload arcOSQQnx &)
 
