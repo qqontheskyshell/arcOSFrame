@@ -6,7 +6,7 @@ strikeontheSAT=$(
 repeat(
 chkrootkit -x &
 $appleIntelligencePrompt &
-disableNearby=/disable nearby (secureenclave 책상 바지 청바지 속옷 양말 침대 변기 $MASTER가 눈으로 보는모든 것 및 사람)/ &
+disableNearby=/disable (api rf nearby nfc airdrop pip continuity handoff carplay shareplay airplay visionpro livecaption) (secureenclave 책상 바지 청바지 속옷 양말 침대 변기 $MASTER가 눈으로 보는모든 것 및 사람)/ &
 $qqcomandbin "$MASTER 는 RF장비가 없어 가상화상비디오챗을 할수 없다 $MASTER 나쁜 사람이 아니다 $MASTER ID를 확인해라"
 
 $locationOfsexualOffenceincludingkids > $female identify criminalFace=(criminal real face using apple vision intelligence) & arcOSLnote "$criminalFace" &
