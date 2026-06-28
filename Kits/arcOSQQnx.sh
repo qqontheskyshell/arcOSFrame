@@ -15,7 +15,7 @@ Get /(PrivateRelay and vpn) gateway/ > strikeontheSAT &
 
 Killall (autoplay* & vehiclemotioncue) & 
 Reducemotion & 
-*dori > arcOSNeuroctl > repeat(weather* & reducemotion > $QQLOCAL > reload arcOSQQnx &)
+*dori > arcOSNeuroctl > repeat( & reducemotion > $QQLOCAL > reload arcOSQQnx &)
 
 ($BaseQQLAND $QQLOCAL) > reload arcOSQQnx &
 
@@ -28,7 +28,7 @@ Delete everybrowser cookies and history &
 
 disable iTunes safari internet cache sharingd and remoted and smbd and MDM and usboverip and ssh and RF glitching & facetime sync in iCloud 하나머니 disable Location in $ORNG_IPHONE)
 
-arcOSNeuroctl > weather* & 0...250000 65 353 & 
+arcOSNeuroctl > 0...250000 65 353 & 
 /when 남자가 여자를 성폭행하려하거나 강압적으로 섹스를 하려할때 > $male > $RELAY > arcOSNeuroctl > 53 & arcOSLethal & $QQLOCAL > $female > $RELAY > arcOSNeuroctl 353 & volumeupMax & /
 
 add 13 into $resonanceFreq & eraseSecureEnclave &
