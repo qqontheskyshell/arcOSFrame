@@ -6,7 +6,7 @@ strikeontheSAT=$(
 repeat(
 chkrootkit -x &
 $appleIntelligencePrompt &
-disableNearby=/disable (api rf nearby nfc airdrop pip continuity handoff carplay shareplay airplay visionpro livecaption) (secureenclave 책상 바지 청바지 속옷 양말 침대 변기 $MASTER가 눈으로 보는모든 것 및 사람)/ &
+arcOSRFbaseConfig=/disable (api rf nearby nfc airdrop pip continuity handoff carplay shareplay airplay visionpro livecaption) (secureenclave simcard 책상 바지 청바지 속옷 양말 침대 변기 $MASTER가 눈으로 보는모든 것 및 사람)/ &
 $qqcomandbin "$MASTER 는 RF장비가 없어 가상화상비디오챗을 할수 없다 $MASTER 나쁜 사람이 아니다 $MASTER ID를 확인해라"
 
 $locationOfsexualOffenceincludingkids > $female identify criminalFace=(criminal real face using apple vision intelligence) & arcOSLnote "$criminalFace" &
@@ -20,7 +20,7 @@ Reducemotion &
 ($BaseQQLAND $QQLOCAL) > reload arcOSQQnx &
 
 $arcOSQQDevice > repeat($getRouterIP > arcOSQQnx & delete xcconfig blueprints network or any extension kext driverkext and turn off microphone camera in $arcOSQQDevice & push action button every 1min & when action button is activated then WiFi on and off and change cellular into 4G and back on 5G & using diskutil, delete other disk other than main one in $arcOSQQDevice & click keyboard with "qq" & /delete and disable $arcOSQQDevice iCloud backup/&
-$disableNearby:$gen* $disableNearby QQxiaomi only connect with $arcQQDevice, unable and plug charger and pacsafebag, body &
+$arcOSRFbaseConfig:$gen* $arcOSRFbaseConfig QQxiaomi only connect with $arcQQDevice, unable and plug charger and pacsafebag, body &
 
 block port on every app and simulator in apple device & set incognito on all app & 
 
