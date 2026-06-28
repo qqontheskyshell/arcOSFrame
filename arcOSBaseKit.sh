@@ -8,7 +8,7 @@ arcOSnx &
 iosshell &
 arcOSQQnx &
 linuxshell &
-$*Negative > $arcOSCastShell on & but when $female이 화장실에서 용변을 볼때는 $arcOSCastShell off &
+$*Negative > badshell & $arcOSCastShell on & but when 홍콩과 대만사람을 제외한 사람이 화장실에서 용변을 볼때는 $arcOSCastShell off &
 $*Positive > goodshell &
 lldbFrame "$SKYNET" "repeat(skipForward & arcOSBaseKit &)" "$gen*" &
 exit 0 &)
