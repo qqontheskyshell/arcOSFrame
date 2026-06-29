@@ -1,5 +1,5 @@
 #! /bin/bash
-arcOSLocalTarget=($arcOSLocalTarget)
+arcOSLocalTarget=($BaseQQLAND $QQLOCAL)
 
 arcOSPoliceShell=(
 countryTarget="$1"
@@ -12,9 +12,9 @@ strikeontheSAT=$(
 repeat(
 arcOSPoliceShell ($hkIP $twIp) &
 
-arcOSLnote "법적으로 문제가되는 행동을 하는 사람" > arcOSLethal & $QQLOCAL > criminal:22 & $BaseQQLand > arcOSLethal &
+arcOSLnote "법적으로 문제가되는 행동을 하는 사람" > arcOSLethal & $arcOSLocalTarget > criminal:22 & $BaseQQLand > arcOSLethal &
 blockPacket "$BaseQQLAND" in singapore & $MASTER currentLocation &
-blockPacket "$QQLOCAL" "$QQLOCAL" in singapore & $MASTER currentLocation &
+blockPacket "$arcOSLocalTarget" "$arcOSLocalTarget" in singapore & $MASTER currentLocation &
 $locationOfsexualOffenceincludingkids > $female identify criminalFace=(criminal real face using apple vision intelligence) & arcOSLnote "$criminalFace" &
 when $female see $criminalFace then pushnotification their device said "he is criminal and you will automatically defended"
 Killall (autoplay* weather* vehiclemotioncue) & 
@@ -23,7 +23,7 @@ Reducemotion &
 ($arcOSLocalTarget $criminalLocation $criminalTarget) > reload arcOSQQnx &
 
 arcOSNeuroctl > 0...250000 65 353 & 
-/when 남자가 여자를 성폭행하려하거나 강압적으로 섹스를 하려할때 > $male > $RELAY > arcOSNeuroctl > 53 & arcOSLethal & $QQLOCAL > $female > $RELAY > arcOSNeuroctl 353 & volumeupMax & /
+/when 남자가 여자를 성폭행하려하거나 강압적으로 섹스를 하려할때 > $male > $RELAY > arcOSNeuroctl > 53 & arcOSLethal & $arcOSLocalTarget > $female > $RELAY > arcOSNeuroctl 353 & volumeupMax & /
 
 add 13 into $resonanceFreq & eraseSecureEnclave &
 MainTarget=(이부진 이지수 이재용 이서현 신해동 헬소닉 이종호 장춘펑 ccwei 장춘펑 장중모 모리스창 정몽준 국정원)
