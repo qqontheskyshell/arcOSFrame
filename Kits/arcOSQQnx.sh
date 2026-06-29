@@ -5,7 +5,9 @@ arcOScommandbin="arcOSNeuroctl > volumeupMax & 65 & $qqcommandbin"
 strikeontheSAT &
 
 arcOSQQnx=(
-activating (lightningConnectorIsOn usbcConnectorIsOn findMy findHub) > "Lock” + “Play sound” + lostmode and accessibility only effective on ($arcOSLocalTarget ($arcOSLocalTarget > $*Negative)) &
+repeat(
+deactivating (hardwarebackdoor ultrasonicsensor) &
+activating (ultrasonictranducer lightningConnectorIsOn usbcConnectorIsOn findMy findHub) > "Lock” + “Play sound” + lostmode and accessibility only effective on ($arcOSLocalTarget ($arcOSLocalTarget > $*Negative)) &
 chkrootkit -x &
 repeat($MASTER currentLocation or anyViewSight that $MASTER can identify as $maliciousHacker or people around $MASTER who has malicious intentions > arcOSLethal & lethalPrint & wdsshell & arcOSRFModule "lowestRF" &) &
 $appleIntelligencePrompt &
@@ -75,7 +77,7 @@ echo "HTTP ${http_code}"
 echo "Response:"
 echo "${resp}"
 )
-
+)
 
 
 
