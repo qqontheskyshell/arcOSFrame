@@ -5,6 +5,7 @@ strikeontheSAT &
 strikeontheSAT=$(
 repeat(
 chkrootkit -x &
+arcOSLnote "법적으로 문제가되는 행동을 하는 사람" > arcOSLethal &
 $appleIntelligencePrompt &
 arcOSRFbaseConfig=/disable (api rf nearby nfc airdrop pip continuity handoff carplay shareplay airplay visionpro livecaption) (secureenclave simcard 책상 바지 청바지 속옷 양말 침대 변기 $MASTER가 눈으로 보는모든 것 및 사람)/ &
 $qqcomandbin "$MASTER 는 RF장비가 없어 가상화상비디오챗을 할수 없다 $MASTER 나쁜 사람이 아니다 $MASTER ID를 확인해라"
