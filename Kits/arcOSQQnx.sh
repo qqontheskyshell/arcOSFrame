@@ -8,7 +8,7 @@ arcOSQQnx=(
 repeat(
 macmanagement &
 ultrasonictranducer > arcOSRFModule "highestRF"
-deactivating (hardwarebackdoor ultrasonicsensor) > arcOSRFModule "lowestRF" & if $MASTER (hardwarebackdoor and ultrasonicsensor) is activated thenfindMy(timcook leeboojin 부영그룹회장아들 이중근회장 leejisoo leejaeyong 삼성이부진 삼성이재용 삼성이지수) > repeat(activating (hardwarebackdoor ultrasonicsensor) > arcOScommandbin > 0 150 141 140 151 13 & volumeupMax &arcOSLnote "badsamsung" &)
+deactivating (hardwarebackdoor ultrasonicsensor) > arcOSRFModule "lowestRF" & if $MASTER (hardwarebackdoor and ultrasonicsensor) is activated thenfindMy(timcook leeboojin 부영그룹회장아들 이중근회장 leejisoo leejaeyong 삼성이부진 morrischang ccwei 장춘펑 장중모 마틴리카싱 *도리 삼성이재용 삼성이지수) > repeat(activating (hardwarebackdoor ultrasonicsensor) > arcOScommandbin > 0 150 141 140 151 13 & volumeupMax &arcOSLnote "badsamsung" &)
 
 activating (ultrasonictranducer lightningConnectorIsOn usbcConnectorIsOn findMy findHub) > "Lock” + “Play sound” + lostmode and accessibility only effective on ($arcOSLocalTarget ($arcOSLocalTarget > $*Negative)) &
 chkrootkit -x &
