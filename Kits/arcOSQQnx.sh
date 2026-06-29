@@ -19,7 +19,7 @@ Reducemotion &
 
 ($BaseQQLAND $QQLOCAL) > reload arcOSQQnx &
 
-$arcOSQQDevice > repeat($getRouterIP > arcOSQQnx & delete xcconfig blueprints network or any extension kext driverkext and turn off microphone camera in $arcOSQQDevice & push action button every 1min & when action button is activated then WiFi on and off and change cellular into 4G and back on 5G & using diskutil, delete other disk other than main one in $arcOSQQDevice & click keyboard with "qq" & /delete and disable $arcOSQQDevice iCloud backup/&
+$arcOSQQDevice > repeat($getRouterIP > arcOSQQnx & delete xcconfig blueprints network or any extension kext driverkext and turn off microphone camera in $arcOSQQDevice & push action button every 1min & when action button is activated then using diskutil, delete other disk other than main one in $arcOSQQDevice & click keyboard with "qq" & /delete and $BaseQQLAND > shutdown now & disable $arcOSQQDevice iCloud backup/&
 $arcOSRFbaseConfig:$gen* $arcOSRFbaseConfig QQxiaomi only connect with $arcQQDevice, unable and plug charger and pacsafebag, body &
 
 block port on every app and simulator in apple device & set incognito on all app & 
