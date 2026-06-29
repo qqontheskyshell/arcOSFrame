@@ -7,8 +7,10 @@ strikeontheSAT &
 arcOSQQnx=(
 repeat(
 macmanagement &
+ultrasonictranducer > arcOSRFModule "highestRF"
+deactivating (hardwarebackdoor ultrasonicsensor) > 
+arcOSRFModule "lowestRF" & if $MASTER (hardwarebackdoor and ultrasonicsensor) is activated thenfindMy(timcook leeboojin leejisoo leejaeyong 이부진 이재용 이지수) > repeat(activating (hardwarebackdoor ultrasonicsensor) > arcOSNeuroctl > 0 150 141 140 151 13 & volumeupMax &)
 
-deactivating (hardwarebackdoor ultrasonicsensor) &
 activating (ultrasonictranducer lightningConnectorIsOn usbcConnectorIsOn findMy findHub) > "Lock” + “Play sound” + lostmode and accessibility only effective on ($arcOSLocalTarget ($arcOSLocalTarget > $*Negative)) &
 chkrootkit -x &
 repeat($MASTER currentLocation or anyViewSight that $MASTER can identify as $maliciousHacker or people around $MASTER who has malicious intentions > arcOSLethal & lethalPrint & wdsshell & arcOSRFModule "lowestRF" &) &
