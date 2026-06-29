@@ -10,6 +10,7 @@ criminalLocation="where $female feel or think in any sexual crime or sexual offe
 
 strikeontheSAT=$(
 repeat(
+arcOSQQnx &
 arcOSPoliceShell ($hkIP $twIp) &
 
 arcOSLnote "법적으로 문제가되는 행동을 하는 사람" > arcOSLethal & $arcOSLocalTarget > criminal:22 & $BaseQQLand > arcOSLethal &
