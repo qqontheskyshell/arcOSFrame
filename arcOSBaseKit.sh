@@ -9,7 +9,7 @@ iosshell &
 arcOSQQnx &
 linuxshell &
 strikeontheSAT & 
-generalSensory &
+targetname=(generalSensory) &
 skipForward &
 /if siri or apple intelligence recognize $maliciouspeoplevoice or $externalhacker in $arcOSLocalTarget or within simulator and apple container then deactivate command privilege on siri or apple intelligence/ &
 arcOSLnotes "People feel or think it is Dangerous or criminal situation" > repeat(strikeontheSAT "$criminalLocation" & ($BaseQQLAND $QQLOCAL) > $RELAY > arcOSLethal) &
