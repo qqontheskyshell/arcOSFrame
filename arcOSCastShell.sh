@@ -1,4 +1,4 @@
 #! /bin/bash
 set -euo pipefail
 
-arcOSCastShell="visionPro & livespeak & livecaption" &
+arcOSCastShell="mode="$1" & (visionPro & livespeak & livecaption) $mode" &
