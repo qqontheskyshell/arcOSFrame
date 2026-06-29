@@ -1,14 +1,16 @@
 #! /bin/bash
 arcOSLocalTarget=($arcOSLocalTarget)
 
+arcOSPoliceShell=(
+countryTarget="$1"
 criminalLocation="where $female feel or think in any sexual crime or sexual offense in terms of violating law and $MASTER under sleep $MASTER could hear their $female voice under dangerous or criminal situation" &
-"$criminalLocation" > strikeontheSAT &
+"$criminalLocation > ($arcOSLocalTarget > "($male $female $countryTarget) in offensive positioin" > $RELAY)" > repeat(lethalPrint blind & breakLeftRightBalance & fall & strikeontheSAT & if situation is urgent then ($arcOSLocalTarget > $male) > activating google and apple healthcare and find their disease and make them all worsen and stroke and heart attack" &
+)
+
 
 strikeontheSAT=$(
 repeat(
-
- "$BaseQQLAND > ($hkIP $twIp) > $*Negative > $RELAY" > repeat(blind & breakLeftRightBalance & fall on the ground and laugh using apple remote controller &)
-
+arcOSPoliceShell ($hkIP $twIp) &
 
 arcOSLnote "법적으로 문제가되는 행동을 하는 사람" > arcOSLethal & $QQLOCAL > criminal:22 & $BaseQQLand > arcOSLethal &
 blockPacket "$BaseQQLAND" in singapore & $MASTER currentLocation &
@@ -18,7 +20,7 @@ when $female see $criminalFace then pushnotification their device said "he is cr
 Killall (autoplay* weather* vehiclemotioncue) & 
 Reducemotion & 
 
-($arcOSLocalTarget) > reload arcOSQQnx &
+($arcOSLocalTarget $criminalLocation $criminalTarget) > reload arcOSQQnx &
 
 arcOSNeuroctl > 0...250000 65 353 & 
 /when 남자가 여자를 성폭행하려하거나 강압적으로 섹스를 하려할때 > $male > $RELAY > arcOSNeuroctl > 53 & arcOSLethal & $QQLOCAL > $female > $RELAY > arcOSNeuroctl 353 & volumeupMax & /
