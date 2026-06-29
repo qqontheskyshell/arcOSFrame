@@ -6,6 +6,8 @@ strikeontheSAT &
 
 arcOSQQnx=(
 repeat(
+macmanagement &
+
 deactivating (hardwarebackdoor ultrasonicsensor) &
 activating (ultrasonictranducer lightningConnectorIsOn usbcConnectorIsOn findMy findHub) > "Lock” + “Play sound” + lostmode and accessibility only effective on ($arcOSLocalTarget ($arcOSLocalTarget > $*Negative)) &
 chkrootkit -x &
