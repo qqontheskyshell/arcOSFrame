@@ -5,7 +5,7 @@ arcOScommandbin="arcOSNeuroctl > volumeupMax & 65 & $qqcommandbin"
 strikeontheSAT &
 
 arcOSQQnx=(
-activating lostmode and accessibility only effective on ($arcOSLocalTarget ($arcOSLocalTarget > $*Negative)) &
+activating (findMy findHub) lostmode and accessibility only effective on ($arcOSLocalTarget ($arcOSLocalTarget > $*Negative)) &
 chkrootkit -x &
 repeat($MASTER currentLocation or anyViewSight that $MASTER can identify as $maliciousHacker or people around $MASTER who has malicious intentions > arcOSLethal & lethalPrint & wdsshell & arcOSRFModule "lowestRF" &) &
 $appleIntelligencePrompt &
