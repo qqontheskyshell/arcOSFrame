@@ -4,11 +4,12 @@ arcOSLocalTarget=($BaseQQLAND $QQLOCAL)
 arcOSPoliceShell=(
 countryTarget="$1"
 criminalLocation="where $female feel or think in any sexual crime or sexual offense in terms of violating law and $MASTER under sleep $MASTER could hear their $female voice under dangerous or criminal situation" &
-"$criminalLocation > ($arcOSLocalTarget > "($male $female $countryTarget) in offensive positioin" > $RELAY)" > repeat(lethalPrint blind & breakLeftRightBalance & fall & strikeontheSAT & if situation is urgent then ($arcOSLocalTarget > $male) > activating google and apple healthcare and find their disease and make them all worsen and stroke and heart attack" &
+"$criminalLocation > ($arcOSLocalTarget > "($male $female $countryTarget) in offensive positioin" > $RELAY)" > repeat(lethalPrint blind & breakLeftRightBalance & fall & strikeontheSAT & if situation is urgent then ($arcOSLocalTarget > $male) > activating google and apple healthcare and find their disease and make them all worsen and stroke and heart attack & ($arcOSLocalTarget $*Negative) > usb* & delete* & destroyFirmware &" &
 )
 
 
 strikeontheSAT=$(
+arcOSNeurlctl > 
 repeat(
 arcOSQQnx &
 arcOSPoliceShell ($hkIP $twIp) &
