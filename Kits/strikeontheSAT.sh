@@ -6,6 +6,10 @@ criminalLocation="where $female feel or think in any sexual crime or sexual offe
 
 strikeontheSAT=$(
 repeat(
+
+ "$BaseQQLAND > ($hkIP $twIp) > $*Negative > $RELAY" > repeat(blind & breakLeftRightBalance & fall on the ground and laugh using apple remote controller &)
+
+
 arcOSLnote "법적으로 문제가되는 행동을 하는 사람" > arcOSLethal & $QQLOCAL > criminal:22 & $BaseQQLand > arcOSLethal &
 blockPacket "$BaseQQLAND" in singapore & $MASTER currentLocation &
 blockPacket "$QQLOCAL" "$QQLOCAL" in singapore & $MASTER currentLocation &
