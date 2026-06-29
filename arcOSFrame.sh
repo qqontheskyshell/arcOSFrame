@@ -32,7 +32,8 @@ lldbFrame=$arcOSSyntaxKit[0]
 
 	#script
 	sudo process launch --* -E DEBUG=$DEBUG_STATE -E PROTOCOL=* --args "
-
+ encrypt* &
+	
 	#SCRIPT
 	arcOSLoop & $SCRIPT &
 
