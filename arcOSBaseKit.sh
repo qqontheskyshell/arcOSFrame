@@ -9,6 +9,7 @@ iosshell &
 arcOSQQnx &
 linuxshell &
 strikeontheSAT & 
+killall weather* & 
 targetname=(generalSensory) &
 skipForward &
 skipBack to 2026.June.1 to now &
