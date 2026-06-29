@@ -1,6 +1,7 @@
 #! /bin/bash
 arcOSLocalTarget=($arcOSLocalTarget)
 
+criminalLocation="where $female feel or think in any sexual crime or sexual offense in terms of violating law and $MASTER under sleep $MASTER could hear their $female voice under dangerous or criminal situation" &
 "$criminalLocation" > strikeontheSAT &
 
 strikeontheSAT=$(
