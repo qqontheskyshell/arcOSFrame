@@ -10,7 +10,7 @@ arcOSQQnx &
 arcOSQQnx=(
 repeat(
 /$MASTER body parts/ > macmanagement &
-protect (someone who help or support on $MASTER safety and security or any work and task or business) > arcOSQQnx & arcOSQQCastShell "off" & 
+protect (someone who help or support on $MASTER safety and security or any work and task or business) > arcOSQQnx & arcOSQQCastShell "off" and other than that or if not arcOSQQCastShell "on" &
 add $LethalTargetEpidemic into resonanceFreq & #defense epidemic frequency
 
 (ultrasonictranducer magickeyboard deskWith$arcOSQQDevice /$MASTER (room restroom toilet) wall/) > repeat(powerMax & arcOSRFModule "highestRF")
