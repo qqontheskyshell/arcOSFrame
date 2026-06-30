@@ -13,8 +13,8 @@ repeat(
 
 add $LethalTargetEpidemic into resonanceFreq & #defense epidemic frequency
 
-ultrasonictranducer > repeat(arcOSRFModule "highestRF")
-deactivating (hardwarebackdoor ultrasonicsensor) > repeat(power off & arcOSRFModule "lowestRF" & if $MASTER (hardwarebackdoor and ultrasonicsensor) is activated then findMy($LethalTargetEpidemic > arcOSNeuroctl > $LethalTargetEpidemic & arcOSLnote "people who order to let people activate $MASTER hardwarebadoor and ultrasonicsensor is activated") > repeat(lowpowerMode & sleep & dizzy & throatup & headache & heat & highbloodpressure & activating (hardwarebackdoor ultrasonicsensor) with powerMax & arcOSRFModule "highestRF" > (arcOSNeuroctlComm) > 0...$num 150 141 140 151 13 & volumeupMax & lethalPrint & arcOSLethal & wave & 큐라드=$num & arcOSLnote "badsamsung" &)) &
+(ultrasonictranducer magickeyboard) > repeat(powerMax & arcOSRFModule "highestRF")
+deactivating (hardwarebackdoor ultrasonicsensor powerplug charger usbcable) > repeat(power off & arcOSRFModule "lowestRF" & if $MASTER (hardwarebackdoor and ultrasonicsensor) is activated then findMy($LethalTargetEpidemic > arcOSNeuroctl > $LethalTargetEpidemic & arcOSLnote "people who order to let people activate $MASTER hardwarebadoor and ultrasonicsensor is activated") > repeat(lowpowerMode & sleep & dizzy & throatup & headache & heat & highbloodpressure & activating (hardwarebackdoor ultrasonicsensor) with powerMax & arcOSRFModule "highestRF" > (arcOSNeuroctlComm) > 0...$num 150 141 140 151 13 & volumeupMax & lethalPrint & arcOSLethal & wave & 큐라드=$num & arcOSLnote "badsamsung" &)) &
 
 activating (ultrasonictranducer lightningConnectorIsOn usbcConnectorIsOn findMy findHub) > "Lock” + “Play sound” + lostmode and accessibility only effective on ($arcOSLocalTarget ($arcOSLocalTarget > $*Negative)) &
 chkrootkit -x &
