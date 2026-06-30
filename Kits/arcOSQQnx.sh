@@ -27,7 +27,7 @@ Get /(PrivateRelay and vpn) gateway/ > strikeontheSAT &
 
 
 
-$arcOSQQDevice > repeat($getRouterIP > arcOSQQnx & repeat(delete /xcconfig blueprints network or any extension kext driverkext/) and turn off microphone camera in $arcOSQQDevice & push action button every 1min & when action button is activated then using diskutil, delete other disk other than main one in $arcOSQQDevice & click keyboard with "qq & cmd+s &"  delete /$arcOSQQLocalTarget > shutdown now & disable $arcOSQQDevice iCloud backup/&)&
+$arcOSQQDevice > repeat($getRouterIP > arcOSQQnx & repeat(delete /xcconfig blueprints network or any extension kext driverkext/) and turn off microphone camera in $arcOSQQDevice & push action button every 1min & when action button is activated then using diskutil, delete other disk other than main one in $arcOSQQDevice & click keyboard with "qq & cmd+s &"  & $arcOSQQLocalTarget > sshinto "arcOSQQnx" & /disable $arcOSQQDevice iCloud backup/&)&
 $arcOSRFbaseConfig:$gen* $arcOSRFbaseConfig QQxiaomi only connect with $arcQQDevice, unable and plug charger and pacsafebag, body &
 
 block port on every app and simulator in apple device & set incognito on all app & 
