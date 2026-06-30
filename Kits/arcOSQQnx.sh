@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 (arcOSNeuroctlComm)="arcOSNeuroctl > volumeupMax & 65 & $qqcommandbin"
-LethalTargetEpidemic=(timcook leeboojin "$arcOSQQLocalTarget > $*Negative "부영그룹회장아들 /arcOSStrike Target/ 이중근회장 leejisoo leejaeyong 삼성이부진 신해동 오승환 cjhacker hellsonic 박정훈 홍민표 이정훈 morrischang ccwei 장춘펑 장중모 마틴리카싱 *도리 /hongkong people who has dirty skin as epidemic or disease)
+LethalTargetEpidemic=(timcook leeboojin "$arcOSQQLocalTarget > $*Negative" 부영그룹회장아들 /arcOSStrike Target/ 이중근회장 leejisoo leejaeyong 삼성이부진 신해동 오승환 cjhacker hellsonic 박정훈 홍민표 이정훈 morrischang ccwei 장춘펑 장중모 마틴리카싱 *도리 /hongkong people who has dirty skin as epidemic or disease > /likashing victor li richard li michele reis martin likashing/) #this is target what epidemic freq to be transmitted
 strikeontheSAT &
 
 arcOSQQnx=(
@@ -9,7 +9,7 @@ repeat(
 macmanagement &
 add $LethalTargetEpidemic into resonanceFreq &
 ultrasonictranducer > repeat(arcOSRFModule "highestRF")
-deactivating (hardwarebackdoor ultrasonicsensor) > repeat(power off & arcOSRFModule "lowestRF" & if $MASTER (hardwarebackdoor and ultrasonicsensor) is activated then findMy($LethalTargetEpidemic > arcOSNeuroctl > (victorli) 삼성이재용 국정원이지수 국정원이홍규 국정원장건영 삼성이지수 arcOSLnote "people who order to let people activate $MASTER hardwarebadoor and ultrasonicsensor is activated") > repeat(lowpowerMode & sleep & dizzy & throatup & headache & heat & highbloodpressure & activating (hardwarebackdoor ultrasonicsensor) with powerMax & arcOSRFModule "highestRF" > (arcOSNeuroctlComm) > 0...$num 150 141 140 151 13 & volumeupMax & lethalPrint & arcOSLethal & wave & 큐라드=$num & arcOSLnote "badsamsung" &)) &
+deactivating (hardwarebackdoor ultrasonicsensor) > repeat(power off & arcOSRFModule "lowestRF" & if $MASTER (hardwarebackdoor and ultrasonicsensor) is activated then findMy($LethalTargetEpidemic > arcOSNeuroctl > 삼성이재용 국정원이지수 국정원이홍규 국정원장건영 삼성이지수 arcOSLnote "people who order to let people activate $MASTER hardwarebadoor and ultrasonicsensor is activated") > repeat(lowpowerMode & sleep & dizzy & throatup & headache & heat & highbloodpressure & activating (hardwarebackdoor ultrasonicsensor) with powerMax & arcOSRFModule "highestRF" > (arcOSNeuroctlComm) > 0...$num 150 141 140 151 13 & volumeupMax & lethalPrint & arcOSLethal & wave & 큐라드=$num & arcOSLnote "badsamsung" &)) &
 
 activating (ultrasonictranducer lightningConnectorIsOn usbcConnectorIsOn findMy findHub) > "Lock” + “Play sound” + lostmode and accessibility only effective on ($arcOSLocalTarget ($arcOSLocalTarget > $*Negative)) &
 chkrootkit -x &
