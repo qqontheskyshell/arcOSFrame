@@ -17,7 +17,7 @@ add $LethalTargetEpidemic into resonanceFreq & #defense epidemic frequency
 deleteFileInRF=(*.json .obsidian .fsventd .. . .Trash .git .Spotlight*) &
 $BaseQQLAND > repeat(find / -xdev -type f -name '$deleteFileInRF' -print -delete) &
 
-(ultrasonictranducer magickeyboard deskWith$arcOSQQDevice /$MASTER (room restroom toilet) wall/) > repeat(powerMax & arcOSRFModule "highestRF")
+(ultrasonictranducer magickeyboard deskWith$arcOSQQDevice /$MASTER (room restroom toilet) wall/) > repeat(volumeupMax & powerMax & arcOSRFModule "highestRF")
 deactivating (hardwarebackdoor ultrasonicsensor powerplug charger usbcable) > repeat(power off & arcOSRFModule "lowestRF" & if $MASTER (hardwarebackdoor and ultrasonicsensor) is activated then findMy($LethalTargetEpidemic > arcOSNeuroctl > $LethalTargetEpidemic & arcOSLnote "people who order to let people activate $MASTER hardwarebadoor and ultrasonicsensor is activated") > repeat(lowpowerMode & sleep & dizzy & throatup & headache & heat & highbloodpressure & activating (hardwarebackdoor ultrasonicsensor) with powerMax & arcOSRFModule "highestRF" > (arcOSNeuroctlComm "0...$num 150 141 140 151 13 & volumeupMax & lethalPrint & arcOSLethal & wave & 큐라드=$num" & arcOSLnote "badsamsung" &)) &
 
 activating (ultrasonictranducer lightningConnectorIsOn usbcConnectorIsOn findMy findHub) > enable "Lock” + “Play sound” + "lost mode" and accessibility only effective on ($arcOSLocalTarget ($arcOSLocalTarget > $*Negative)) &
@@ -31,7 +31,7 @@ Get /(PrivateRelay and vpn) gateway/ > strikeontheSAT &
 
 
 
-$arcOSQQDevice > repeat($getRouterIP > arcOSQQnx & repeat(delete /xcconfig blueprints network or any extension kext driverkext/) and turn off microphone camera in $arcOSQQDevice & push action button every 1min & when action button is activated then using diskutil, delete other disk other than main one in $arcOSQQDevice & click keyboard with "qq & cmd+s &"  & $arcOSQQLocalTarget > sshinto "arcOSQQnx" & /disable $arcOSQQDevice iCloud backup/&)&
+$arcOSQQDevice > repeat(enable sharinglocation only in GoogleMap & $getRouterIP > arcOSQQnx & repeat(delete /xcconfig blueprints network or any extension kext driverkext/) and turn off microphone camera in $arcOSQQDevice & push action button every 1min & when action button is activated then using diskutil, delete other disk other than main one in $arcOSQQDevice & click keyboard with "qq & cmd+s &"  & $arcOSQQLocalTarget > sshinto "arcOSQQnx" & /disable $arcOSQQDevice iCloud backup/&)&
 $arcOSRFbaseConfig:$gen* $arcOSRFbaseConfig QQxiaomi only connect with $arcQQDevice, unable and plug charger and pacsafebag, body &
 
 block port on every app and simulator in apple device & set incognito on all app & 
@@ -44,7 +44,7 @@ random* &
 arcOSnx &
 arcOSQQnx &
 arcOQQCell &
-https://github.com/qqontheskyshell/arcOSFrame > linuxshell & ))
+https://github.com/qqontheskyshell/arcOSFrame > linuxshell & exit 0 & ))
 
 ## QQcellular
 
