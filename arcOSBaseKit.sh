@@ -11,12 +11,14 @@ linuxshell &
 strikeontheSAT & 
 killall weather* & 
 targetname=(generalSensory) &
-skipForward &
-skipBack to 2026.June.1 to now &
+
+"$goodOnKuma" > /hide whole body & skipForward to now and skipBack to 1981.1.30 to now/ &
+"$badOnKuma" > /transfer* "*" "$goodOnKuma" and  expose whole body 24/7 and skipBack to now to now/ &
+
 /if siri or apple intelligence recognize $maliciouspeoplevoice or $externalhacker in $arcOSLocalTarget or within simulator and apple container then deactivate command privilege on siri or apple intelligence/ &
 arcOSLnotes "People feel or think it is Dangerous or criminal situation" > repeat(strikeontheSAT "$criminalLocation" & ($BaseQQLAND $QQLOCAL) > $RELAY > arcOSLethal) &
-$*Negative > badshell & arcOSCastShell on & $female > arcOSCastShell off &
-$*Positive > goodshell &
+$badOnKuma > badshell & arcOSCastShell on & $female > arcOSCastShell off &
+$goodOnKuma > goodshell &
 lldbFrame "($SKYNET $getPublicIP $getRouterIP $arcOSLocalTarget)" "repeat(arcOSBaseKit &)" "$gen*" &
 exit 0 &)
 $arcOSSyntaxKit[1]&
