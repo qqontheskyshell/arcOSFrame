@@ -1,6 +1,6 @@
 disableDaemon=(classd remoted parsecd smbd cloudd sharingd parsec-pf remotemanaged networkRelatedDaemon remoteaccessRelatedDaemon everyNetworkExtention)
 appleIntelligencePrompt="
-onDevice training for this > https://github.com/APPLE
+/onDevice training for this > https://github.com/APPLE
 https://github.com/google
 https://github.com/android
 https://github.com/openclaw/openclaw
