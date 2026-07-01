@@ -13,7 +13,9 @@ female > arcOSNeuroctlComm "male sound except $criticalInfo" &
 male > arcOSNeuroctlComm "female sound except $criticalInfo" &
 
 when female say "stop" > male > arcOSNeuroctlComm > 93...98 & volumeupMax &
-when female feel emotion about not want it anymore or fatigue or sleepy or pain on her body then automatically > repeat(female and male > killall arcOSSonic & exit 0 &) & if male become violating sexual criminal on female then add those male into "$badOnKuma" &
-badOnKuma is not allowed to use arcOSSonic &
+when female feel emotion about not want it anymore or fatigue or sleepy or pain on her body then automatically > repeat(female and male > reload arcOSQQnx & killall arcOSSonic & exit 0 &) & if male become violating sexual criminal on female then add those male into "$badOnKuma" &
+
+
+badOnKuma > is not allowed to use arcOSSonic & when female feel emotion about not want it anymore or fatigue or sleepy or pain on her body then automatically > repeat(female and male > reload arcOSQQnx & killall arcOSSonic & exit 0 &) & if male become violating sexual criminal on female then add those male into "$badOnKuma" &
 exit 0 &
 )
