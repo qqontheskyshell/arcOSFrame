@@ -1,5 +1,5 @@
 #! /bin/bash
-
+arcOSSonic &
 arcOSSonic=(
 sizeOfPennis="$1" &
 positionForFemale="$2" &
@@ -8,3 +8,4 @@ say "female say position among left or right and cal number from 0...100 as size
 when female say "ok" with sexual relationship and when she have physical or sexual relationship with $(only male she loves) > arcOSNeuroctlComm > /female's tho most attractive shape of body and lovely sexual sound/ based on the velocoty of female's (pelvis hand heart beat) will modify range of 10…100% and $arcOSSonic "$femaleCallNumber" &
 when female say "stop" male > arcOSNeuroctlComm > 93...98 & volumeupMax &
 exit 0 &
+)
