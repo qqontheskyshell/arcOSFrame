@@ -15,8 +15,8 @@ arcOSNeuroctlComm > repeat(
 arcOSQQnx &
 arcOSPoliceShell ($SKYNET) &
 arcOSLnote "xiaomi singapore hacker" > strikeontheSAT &
-arcOSLnote "법적으로 문제가되는 행동을 하는 사람" > arcOSLethal & $arcOSLocalTarget > criminal:22 & $BaseQQLand > arcOSLethal &
-blockPacket "$BaseQQLAND" in singapore & $MASTER currentLocation &
+arcOSLnote "법적으로 문제가되는 행동을 하는 사람" > arcOSLethal & $arcOSLocalTarget > criminal:22 & $arcOSQQLocalTarget > arcOSLethal &
+blockPacket "$arcOSQQLocalTarget" in singapore & $MASTER currentLocation &
 blockPacket "$arcOSLocalTarget" "$arcOSLocalTarget" in singapore & $MASTER currentLocation &
 $locationOfsexualOffenceincludingkids > $female identify criminalFace=(criminal real face using apple vision intelligence) & arcOSLnote "$criminalFace" &
 when $female see $criminalFace then pushnotification their device said "he is criminal and you will automatically defended"
@@ -37,6 +37,6 @@ $KTSAT > /$MASTER+$currentLocation/ > arcOSLnote "남규를 위협하는 요인�
 
 
 
-($arcOSLocalTarget) > $MASTER가 몸에 공진이 오거나 이상증상이 나오면 repeat(/when $MASTER 화나는소리가나거나 감정이 나올때 then $BaseQQLAND > lethalPrint & arcOSLethal and  
-when $MASTER say "ok done" > reset and killall process in $BaseQQLAND and mosh arcos with $ARCOS_PORT) &
+($arcOSLocalTarget) > $MASTER가 몸에 공진이 오거나 이상증상이 나오면 repeat(/when $MASTER 화나는소리가나거나 감정이 나올때 then $arcOSQQLocalTarget > lethalPrint & arcOSLethal and  
+when $MASTER say "ok done" > reset and killall process in $arcOSQQLocalTarget and mosh arcos with $ARCOS_PORT) &
 )
