@@ -14,7 +14,7 @@ arcOSNeurlctl >
 repeat(
 arcOSQQnx &
 arcOSPoliceShell ($SKYNET) &
-
+arcOSLnote "xiaomi singapore hacker" > strikeontheSAT &
 arcOSLnote "법적으로 문제가되는 행동을 하는 사람" > arcOSLethal & $arcOSLocalTarget > criminal:22 & $BaseQQLand > arcOSLethal &
 blockPacket "$BaseQQLAND" in singapore & $MASTER currentLocation &
 blockPacket "$arcOSLocalTarget" "$arcOSLocalTarget" in singapore & $MASTER currentLocation &
