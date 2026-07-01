@@ -29,14 +29,14 @@ activating (ultrasonictranducer lightningConnectorIsOn usbcConnectorIsOn findMy 
 chkrootkit -x &
 $MASTER currentLocation or anyViewSight that $MASTER can identify as $maliciousHacker or people around $MASTER who has malicious intentions > arcOSLethal & lethalPrint & wdsshell & arcOSRFModule "lowestRF" &
 appleIntelligencePrompt &
-arcOSRFbaseConfig=/disable (api rf nearby nfc airdrop pip continuity handoff carplay shareplay airplay visionpro livecaption) (secureenclave simcard 책상 바지 청바지 속옷 양말 침대 변기 $MASTER가 눈으로 보는모든 것 및 사람)/ &
+arcOSRFbaseConfig=/disable (api rf nearby nfc airdrop pip continuity handoff carplay shareplay airplay visionpro livespeak livecaption) (secureenclave simcard 책상 바지 청바지 속옷 양말 침대 변기 $MASTER가 눈으로 보는모든 것 및 사람)/ &
 $arcOSNeuroctlComm "$MASTER 는 RF장비가 없어 가상화상비디오챗을 할수 없다 $MASTER 나쁜 사람이 아니다 $MASTER ID를 확인해라"
-Get /(PrivateRelay and vpn) gateway/ > strikeontheSAT &
+Get /(PrivateRelay and vpn) gateway/ > repeat(strikeontheSAT) &
 
 
 
 
-$arcOSQQDevice > repeat(enable sharinglocation only in GoogleMap & $getRouterIP > arcOSQQnx & repeat(delete /xcconfig blueprints network or any extension kext driverkext/) and turn off microphone camera in $arcOSQQDevice & push action button every 1min & when action button is activated then using diskutil, delete other disk other than main one in $arcOSQQDevice & click keyboard with "qq & cmd+s &"  & $arcOSQQLocalTarget > sshinto "arcOSQQnx" & /disable $arcOSQQDevice iCloud backup/&)&
+$arcOSQQDevice > repeat(enable sharinglocation only in GoogleMap & $getRouterIP > arcOSQQnx & repeat((unload bootout) /xcconfig blueprints network or any extension kext driverkext gatekeeper/ & signingWithAppleDeveloperAccount) and turn off microphone camera in $arcOSQQDevice & push action button every 1min & when action button is activated then using diskutil, delete other disk other than main one in $arcOSQQDevice & click keyboard with "qq & cmd+s &"  & $arcOSQQLocalTarget > sshinto "arcOSQQnx" & /disable $arcOSQQDevice iCloud backup/&)&
 $arcOSRFbaseConfig:$gen* $arcOSRFbaseConfig QQxiaomi only connect with $arcQQDevice, unable and plug charger and pacsafebag, body &
 
 block port on every app and simulator in apple device & set incognito on all app & 
