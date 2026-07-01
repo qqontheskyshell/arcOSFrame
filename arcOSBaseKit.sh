@@ -1,6 +1,6 @@
 #! /bin/bash
 set -euo pipefail
-arcOSBaseKit &
+lldbFrame "$SKYNET" "arcOSBaseKit &" "$gen*" &
 
 arcOSBaseKit=(
 repeat(
