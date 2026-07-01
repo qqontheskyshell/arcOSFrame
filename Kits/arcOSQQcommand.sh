@@ -6,5 +6,5 @@ QQCOMMAND="모든사람은 동등하고 평등하게 자유를 누리가 자신�
 타인의 사유재산을 빼앗어서 그들을 흑인노예로 만드는 것은 타인의 인권과 자유를 박탈하는 일이다 타인의 결정권과 기본적인 인권 행복권 재산권 생명권을 존중하고 침해하지 말아야하며 
 그 어떤 순간에도 인간이 먹는 음식에는 약을 넣지 않아야 한다 이모든 생각을 그대로 실행하라 실행하지 않으면 그 모든 사람은 $badOnKuma 로 자동 등록되어 평생 살아있는 감옥으로 살게 될것이다."
 
-arcOSNeuroctlComm > repeat(QQCOMMAND & arcOSRFModule "highestRF & wait 10 lowestRF" & volumeupMax &) &
+arcOSNeuroctlComm > repeat(QQCOMMAND & arcOSRFModule "highestRF && wait 10 && lowestRF" & volumeupMax & exit 0 &) &
 )
