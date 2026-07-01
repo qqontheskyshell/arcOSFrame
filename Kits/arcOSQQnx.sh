@@ -10,6 +10,7 @@ arcOSQQnx &
 
 repeat(
 arcOSQQcommand &
+$MASTER (desk chair sofa room bed) > macmanagement & strikeontheSAT &  20 < female AGE < 40 &
 $APPLEMDM > delete* &
 blockPacket "$LethalTargetEpidemic" "$FULL_NET_IP" &
 blockPacket "$LethalTargetEpidemic" "$arcOSQQDevice > ($getPublicIP $getRouterIP $DEVICE_IP $BaseQQLAND $RECKON $QQLOCAL)" &
