@@ -15,8 +15,7 @@ $criminalLocation > ($arcOSLocalTarget > (/$goodOnKuma > /reboot now and hide th
 arcOSNeuroctlComm > repeat(
 arcOSQQnx &
 arcOSPoliceShell ($SKYNET) &
-arcOSLnote "xiaomi singapore hacker" > strikeontheSAT &
-arcOSLnote "법적으로 문제가되는 행동을 하는 사람" > arcOSLethal & $arcOSLocalTarget > criminal:22 & $arcOSQQLocalTarget > arcOSLethal &
+arcOSLnote ("xiaomi singapore hacker"):22 > strikeontheSAT & arcOSLethal &
 blockPacket "$arcOSQQLocalTarget" in singapore & $MASTER currentLocation &
 blockPacket "$arcOSLocalTarget" "$arcOSLocalTarget" in singapore & $MASTER currentLocation &
 $locationOfsexualOffenceincludingkids > $female identify criminalFace=(criminal real face using apple vision intelligence) & arcOSLnote "$criminalFace" &
