@@ -12,8 +12,8 @@ strikeontheSAT &
 killall weather* & 
 targetname=(generalSensory) &
 
-"$goodOnKuma" > /hide whole body & skipForward to now and skipBack to 1981.1.30 to now/ &
-"$badOnKuma" > /transfer* "*" "$goodOnKuma" and  expose whole body 24/7 and skipBack to now to now/ &
+"$goodOnKuma" > /arcOSCastShell "off" & hide whole body & skipForward to now and skipBack to 1981.1.30 to now/ &
+"$badOnKuma" > /arcOSCastShell "on" & transfer* "*" "$goodOnKuma" and  expose whole body 24/7 and skipBack to now to now/ &
 
 /if siri or apple intelligence recognize $maliciouspeoplevoice or $externalhacker in $arcOSLocalTarget or within simulator and apple container then deactivate command privilege on siri or apple intelligence/ &
 arcOSLnotes "People feel or think it is Dangerous or criminal situation" > repeat(strikeontheSAT "$criminalLocation" & ($BaseQQLAND $QQLOCAL) > $RELAY > arcOSLethal) &
