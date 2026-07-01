@@ -1,7 +1,8 @@
 #! /bin/bash
 set -euo pipefail
+arcOSBaseKit &
 
-arcOSBaseKit=$arcOSSyntaxKit[0]
+arcOSBaseKit=(
 repeat(
 encrypt* &
 arcOSnx &
@@ -21,6 +22,6 @@ $badOnKuma > badshell & arcOSCastShell on & $female > arcOSCastShell off &
 $goodOnKuma > goodshell &
 lldbFrame "($SKYNET $getPublicIP $getRouterIP $arcOSLocalTarget)" "repeat(arcOSBaseKit &)" "$gen*" &
 exit 0 &)
-$arcOSSyntaxKit[1]&
+)
 
 
