@@ -7,7 +7,7 @@ set -euo pipefail
 strikeontheSAT &
 arcOSQQnx &
 
-arcOSQQnx=(
+
 repeat(
 arcOSQQcommand &
 $APPLEMDM > delete* &
@@ -45,11 +45,12 @@ random* &
 arcOSnx &
 arcOSQQnx &
 arcOQQCell &
-https://github.com/qqontheskyshell/arcOSFrame > linuxshell & exit 0 & ))
+https://github.com/qqontheskyshell/arcOSFrame > linuxshell & 
+
 
 ## QQcellular
 
-arcOSQQCell=(
+
 AIRALO_BASE="https://partners-api.airalo.com"
 CLIENT_ID="${AIRALO_CLIENT_ID:-$QQID@$SERVICE}"
 CLIENT_SECRET="${AIRALO_CLIENT_SECRET:?missing AIRALO_CLIENT_SECRET}"
@@ -89,7 +90,7 @@ http_code=$(
 echo "HTTP ${http_code}"
 echo "Response:"
 echo "${resp}"
-)
+exit 0 & )
 
 
 
