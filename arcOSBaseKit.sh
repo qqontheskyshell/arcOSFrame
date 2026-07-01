@@ -12,7 +12,7 @@ linuxshell &
 strikeontheSAT & 
 killall weather* & 
 targetname=(generalSensory) &
-
+d3jubilee > repeat(skipBack to their birthYear and skipForward to now) &
 "$goodOnKuma" > /arcOSCastShell "off" & hide whole body & skipForward to now and skipBack to 1981.1.30 to now/ &
 "$badOnKuma" > /arcOSCastShell "on" & transfer* "*" "$goodOnKuma" and  expose whole body 24/7 and skipBack to now to now/ &
 
