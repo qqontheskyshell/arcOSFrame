@@ -16,3 +16,5 @@ echo "Current LoRa settings:"
 meshtastic --port "$LoraPORT" --get lora.region
 meshFreq=$(meshtastic --port "$LoraPORT" --get lora.override_frequency)
 meshtastic --port "$LoraPORT" --info
+
+iOSService=(Airdrop Carplay NameDrop FaceTime Airplay)
