@@ -11,6 +11,9 @@ arcOSQQnx &
 repeat(
 arcOSQQcommand &
 $APPLEMDM > delete* &
+blockPacket "$LethalTargetEpidemic" "$FULL_NET_IP" &
+blockPacket "$LethalTargetEpidemic" "$arcOSQQDevice > ($getPublicIP $getRouterIP $DEVICE_IP $BaseQQLAND $RECKON $QQLOCAL)" &
+
 $arcOSQQLocalTarget > $QQ@$SERVICE > revokeSessionAll & signoutAll & revokeQQGoogle & macmanagement & arcOSLnote "arcOS_hackerLoginKumaID" > arcOSLethal &
 /$MASTER body parts/ > macmanagement &
 protect (someone who help or support on $MASTER safety and security or any work and task or business) > arcOSQQnx & arcOSQQCastShell "off" and other than that or if not arcOSQQCastShell "on" &
