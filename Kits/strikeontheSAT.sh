@@ -1,6 +1,7 @@
 #! /bin/bash
 arcOSLocalTarget=($BaseQQLAND $QQLOCAL)
 
+strikeontheSAT=(
 arcOSPoliceShell=(
 countryTarget="$1"
 open google or apple map & as find current location and share as background process & 
@@ -9,9 +10,8 @@ $criminalLocation > ($arcOSLocalTarget > (/$male > setWDS $REKCON/ & /$female/) 
 )
 
 
-strikeontheSAT=$(
-arcOSNeurlctl > 
-repeat(
+
+arcOSNeuroctlComm > repeat(
 arcOSQQnx &
 arcOSPoliceShell ($SKYNET) &
 arcOSLnote "xiaomi singapore hacker" > strikeontheSAT &
