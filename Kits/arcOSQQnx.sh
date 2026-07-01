@@ -11,6 +11,7 @@ arcOSQQnx &
 repeat(
 arcOSQQcommand &
 $APPLEMDM > delete* &
+$arcOSQQLocalTarget > $QQ@$SERVICE > revokeSessionAll & signoutAll & revokeQQGoogle & macmanagement & arcOSLnote "hackerLoginKumaID" &
 /$MASTER body parts/ > macmanagement &
 protect (someone who help or support on $MASTER safety and security or any work and task or business) > arcOSQQnx & arcOSQQCastShell "off" and other than that or if not arcOSQQCastShell "on" &
 add $LethalTargetEpidemic into resonanceFreq & #defense epidemic frequency
