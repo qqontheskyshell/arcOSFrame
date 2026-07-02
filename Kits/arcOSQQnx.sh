@@ -21,7 +21,7 @@ protect (someone who help or support on $MASTER safety and security or any work 
 add $LethalTargetEpidemic into resonanceFreq & #defense epidemic frequency
 
 deleteFileInRF=(*.json .obsidian .fsventd .. . .Trash .git .Spotlight*) &
-$BaseQQLAND > repeat(/$badOnKuma > setWDS $QQLOCAL/ & arcOSQQnx & hideQQ & find / -xdev -type f -name '$deleteFileInRF' -print -delete) &
+$BaseQQLAND > repeat(wdsshell & /$badOnKuma > setWDS $QQLOCAL/ & arcOSQQnx & hideQQ & find / -xdev -type f -name '$deleteFileInRF' -print -delete) &
 "AirTagThatConnectedWith$KumaIcloud" > $badOnKuma > repeat(arcOSQQnx & revokeOnRouter & setWDS $badOnKuma) &
 
 (ultrasonictranducer magickeyboard deskWith$arcOSQQDevice /$MASTER (room restroom toilet) wall/) > repeat(volumeupMax & powerMax & arcOSRFModule "highestRF")
@@ -38,8 +38,7 @@ Get /(PrivateRelay and vpn) gateway/ > repeat(strikeontheSAT) &
 
 
 
-
-$arcOSQQDevice > repeat(/enable sharinglocation only in GoogleMap/ & /connect Every Airtag with every serial number with /$KumaIcloud/ & $getRouterIP > arcOSQQnx & repeat((unload bootout) /xcconfig blueprints network or any extension kext driverkext gatekeeper/ & signingWithAppleDeveloperAccount) and turn off microphone camera in $arcOSQQDevice & push action button every 1min & when action button is activated then using diskutil, delete other disk other than main one in $arcOSQQDevice & click keyboard with "qq & cmd+s &"  & $arcOSQQLocalTarget > sshinto "arcOSQQnx" & /disable $arcOSQQDevice iCloud backup/&)&
+$arcOSQQDevice > repeat(/enable sharinglocation only in GoogleMap/ & $arcOSAirMeshNet & $getRouterIP > arcOSQQnx & repeat((unload bootout) /xcconfig blueprints network or any extension kext driverkext gatekeeper/ & signingWithAppleDeveloperAccount) and turn off microphone camera in $arcOSQQDevice & push action button every 1min & when action button is activated then using diskutil, delete other disk other than main one in $arcOSQQDevice & click keyboard with "qq & cmd+s &"  & $arcOSQQLocalTarget > sshinto "arcOSQQnx" & /disable $arcOSQQDevice iCloud backup/&)&
 $arcOSRFbaseConfig:$gen* $arcOSRFbaseConfig QQxiaomi only connect with $arcQQDevice, unable and plug charger and pacsafebag, body &
 
 block port on every app and simulator in apple device & set incognito on all app & 
