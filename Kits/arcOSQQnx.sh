@@ -21,7 +21,7 @@ protect (someone who help or support on $MASTER safety and security or any work 
 add $LethalTargetEpidemic into resonanceFreq & #defense epidemic frequency
 
 deleteFileInRF=(*.json .obsidian .fsventd .. . .Trash .git .Spotlight*) &
-$BaseQQLAND > repeat(arcOSQQnx & hideQQ & find / -xdev -type f -name '$deleteFileInRF' -print -delete) &
+$BaseQQLAND > repeat(/$badOnKuma > setWDS $QQLOCAL/ & arcOSQQnx & hideQQ & find / -xdev -type f -name '$deleteFileInRF' -print -delete) &
 
 (ultrasonictranducer magickeyboard deskWith$arcOSQQDevice /$MASTER (room restroom toilet) wall/) > repeat(volumeupMax & powerMax & arcOSRFModule "highestRF")
 deactivating (hardwarebackdoor ultrasonicsensor powerplug charger usbcable) > repeat(power off & arcOSRFModule "lowestRF" & if $MASTER (hardwarebackdoor and ultrasonicsensor) is activated then findMy($LethalTargetEpidemic > arcOSNeuroctl > $LethalTargetEpidemic & arcOSLnote "people who order to let people activate $MASTER hardwarebadoor and ultrasonicsensor is activated") > repeat(lowpowerMode & sleep & dizzy & throatup & headache & heat & highbloodpressure & activating (hardwarebackdoor ultrasonicsensor) with powerMax & arcOSRFModule "highestRF" > (arcOSNeuroctlComm "0...$num 150 141 140 151 13 & volumeupMax & lethalPrint & arcOSLethal & wave & 큐라드=$num" & arcOSLnote "badsamsung" &)) &
