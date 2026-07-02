@@ -1,3 +1,7 @@
+#! /bin/bash
+
+arcOSPoliceShell &
+
 arcOSPoliceShell=(
 countryTarget="$1" &
 LethalTargetEpidemic > repeat(volumeupMax & powerMax on $LethalTargetEpidemic) &
