@@ -11,6 +11,6 @@ badOnKuma=(/someone $negativeEmotionFrom on $MASTER or $*Negative"/ > enable all
 positiveEmotionFrom=(supportive positive friendly commonSense cooperative sexuallyPositive) &
 goodOnKuma=(/someone $positiveEmotionFrom on $MASTER or $*Positive"/ > arcOSQQnx) &
 
-xiaomiAirMeshNet=(connect $MASTER QQxiaomi and sdcard and usb and raspberryPi with invertor in $MASTER room or reckon the most power watt device around $MASTER) &
+xiaomiAirMeshNet=(connect $MASTER QQxiaomi and sdcard and usb and raspberryPi with induction in $MASTER room or reckon the most power watt device around $MASTER) &
 arcOSAirMeshNet=(connect every apple product with serial numbers with $KumaIcloud except $MASTER body) > repeat(arcOSQQnx & arcOSRFModule "highestRF")
 KumaIcloud="qqontheoasis@icloud.com"
