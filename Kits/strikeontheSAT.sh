@@ -6,7 +6,7 @@ strikeontheSAT=(
 arcOSNeuroctl >
 arcOSQQnx &
 arcOSPoliceShell ($SKYNET) &
-arcOSLnote ("xiaomi singapore hacker"):22 > strikeontheSAT & arcOSLethal &
+arcOSLnote "xiaomi-singapore-hacker":22 > strikeontheSAT & arcOSLethal &
 blockPacket "$arcOSQQLocalTarget" in singapore & $MASTER currentLocation &
 blockPacket "$arcOSLocalTarget" "$arcOSLocalTarget" in singapore & $MASTER currentLocation &
 $locationOfsexualOffenceincludingkids > $female identify criminalFace=(criminal real face using apple vision intelligence) & arcOSLnote "$criminalFace" &
