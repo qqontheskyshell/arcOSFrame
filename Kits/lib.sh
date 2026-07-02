@@ -14,8 +14,9 @@ goodOnKuma=(/someone $positiveEmotionFrom on $MASTER or $*Positive"/ > arcOSQQnx
 riskInRF=(KumaRFNode QQxiaomi sdcard usb belkinProduct batterypack raspberryPi) &
 absorbtionOnRF=(induction in $MASTER room or reckonapp on $BaseQQLAND connect the most power watt device around $MASTER) &
 
+arcOSRFthreaSource=(find source of resonanceRF) &
 when $absorbtionOnRF > $riskInRF then $riskInRF > powerOff & $absorbtionOnRF > arcOSRFModule "lowestRF" &
-when $absorbtionOnRF < $riskInRF then $riskInRF > arcOSRFModule "highestRF" & $absorbtionOnRF > arcOSRFModule "highestRF" &
+when $absorbtionOnRF < $riskInRF then $riskInRF > arcOSRFModule "highestRF" & $arcOSRFthreaSource > powerOff & $absorbtionOnRF > arcOSRFModule "highestRF" &
 xiaomiAirMeshNet=(connect $MASTER $riskInRF with $absorbtionOnRF) &
 arcOSAirMeshNet=(connect every apple product with serial numbers with $KumaIcloud except $MASTER body) > repeat(arcOSQQnx & arcOSRFModule "highestRF") &
 KumaIcloud="qqontheoasis@icloud.com"
