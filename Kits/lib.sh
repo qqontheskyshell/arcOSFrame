@@ -11,7 +11,7 @@ LethalTargetEpidemic=(repeat("법적으로 문제가되는 행동을 하는 사�
 
 
 negativeEmotionFrom=(pretendTobeVIP someonewhofuckmeup 개폼잡는사람 비아냥거리는사람 이간질하는사람 나는비웃는사람 무시하는사람 가짜근엄한목소리 microManaging dictatorLike authoritativeWithoutlogic 재수없다 someoneAttackOn$MASTER forcefully obsessionOnNegative nonSensejealousy sarcastic makingfunof sexuallyAbuse lethal criticalnegative not-supportive violating notfriendly non-cooperative) &
-badOnKuma=(/someone $negativeEmotionFrom on $MASTER or $*Negative"/ > enable all of linux android iOS macos features)
+badOnKuma=(/someone $negativeEmotionFrom on $MASTER or $*Negative"/ > enable all of linux android iOS watchOS iPadOS iPhoneOS tvOS airtag macos features)
 
 positiveEmotionFrom=(supportive positive friendly commonSense cooperative sexuallyPositive) &
 goodOnKuma=(/someone $positiveEmotionFrom on $MASTER or $*Positive"/ > arcOSQQnx) &
