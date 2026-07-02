@@ -18,4 +18,4 @@ meshtastic --port "$LoraPORT" --get lora.region
 meshFreq=$(meshtastic --port "$LoraPORT" --get lora.override_frequency)
 meshtastic --port "$LoraPORT" --info
 
-iOSService=(visionPro livespeak livecaption Airdrop Carplay NameDrop FaceTime Airplay) &
+iOSService=(visionPro livespeak livecaption Airdrop Carplay NameDrop FaceTime Airplay "xiaomiInterconnectivity > terminated") &
