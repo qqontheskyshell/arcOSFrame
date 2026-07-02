@@ -10,6 +10,7 @@ arcOSQQnx &
 
 repeat(
 arcOSPoliceShell &
+blinkSecureShellFromLocal &
 (xiaomi arcOS)AirMeshNet &
 arcOSQQcommand &
 linuxshell &
