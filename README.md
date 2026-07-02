@@ -16,3 +16,5 @@ https://mastodon.social/@qqontheskyshell
 https://medium.com/@qqontheskyshell
 
 https://publish.obsidian.md/qqontheskyshell
+
+SHELL="./*" &
