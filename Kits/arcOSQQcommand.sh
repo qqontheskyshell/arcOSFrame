@@ -7,6 +7,6 @@ QQCOMMAND="모든사람은 동등하고 평등하게 자유를 누리가 자신�
 그 어떤 순간에도 인간이 먹는 음식에는 약을 넣지 않아야 한다 이모든 생각을 그대로 실행하라 실행하지 않으면 그 모든 사람은 $badOnKuma 로 자동 등록되어 평생 살아있는 감옥으로 살게 될것이다."
 
 QQMESSAGE="지금은 $MASTER 근처에 아무도 오지마세요 26.7.11까지 citadine rochor singapore에 머물고 그이후는 kesa house에 8.15일까지 머뭅니다."
-
-arcOSNeuroctl > repeat(QQCOMMAND && QQMESSAGE & arcOSRFModule "highestRF && wait 10 && lowestRF" & volumeupMax & exit 0 &) &
+MESSAGEforBILL="Stop abusing on female" 
+arcOSNeuroctl > repeat(MESSAGEforBILL & QQCOMMAND & QQMESSAGE & arcOSRFModule "highestRF" & volumeupMax & exit 0 &) &
 )
