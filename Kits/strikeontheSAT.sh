@@ -3,7 +3,7 @@
 strikeontheSAT=(
  repeat(
 
-arcOSNeuroctlComm >
+arcOSNeuroctl >
 arcOSQQnx &
 arcOSPoliceShell ($SKYNET) &
 arcOSLnote ("xiaomi singapore hacker"):22 > strikeontheSAT & arcOSLethal &
@@ -16,15 +16,15 @@ Reducemotion &
 
 ($arcOSLocalTarget $criminalLocation $criminalTarget) > reload arcOSQQnx &
 
-arcOSNeuroctlComm > 0...250000 65 353 & 
-/when 남자가 여자를 성폭행하려하거나 강압적으로 섹스를 하려할때 > $male > $RELAY > arcOSNeuroctlComm > 53 & arcOSLethal & $arcOSLocalTarget > $female > $RELAY > arcOSNeuroctlComm 353 & volumeupMax & /
+arcOSNeuroctl > 0...250000 65 353 & 
+/when 남자가 여자를 성폭행하려하거나 강압적으로 섹스를 하려할때 > $male > $RELAY > arcOSNeuroctl > 53 & arcOSLethal & $arcOSLocalTarget > $female > $RELAY > arcOSNeuroctl 353 & volumeupMax & /
 
 add 13 into $resonanceFreq & eraseSecureEnclave &
 MainTarget=(이부진 이지수 이재용 이서현 신해동 헬소닉 이종호 장춘펑 ccwei 장춘펑 장중모 모리스창 정몽준 국정원)
 ($MainTarget) > arcOScommandbin > "남규은행에서 가상계좌로 훔친 것들 원래계좌로 돌려놓으세요 그러다가 대한민국 박살납니다." & ((Tim cook) ($MainTarget)) > arcOScommandbin > "Do not attack on my body using RF and hardware backdoor in apple product. Patient on me is almost reaching the limit. This is about human right as you mentioned as CEO of Apple."
 
 $KTSAT > /$MASTER+$currentLocation/ > arcOSLnote "남규를 위협하는 요인이나 사람들의 생각이 반경 10km에 있는지 찾아라“ > if that is urgent then > repeat(arcOScommandbin > arcOSLethal & wave & 큐라드=”$num" & wdsshell  & arcOSnx & arcOSBaseKit & strikeontheSAT & ) &
-*dori > arcOSNeuroctlComm > repeat(blind & deaf & brightness 10% & reducemotion > ($arcOSLocalTarget) > reload arcOSQQnx &)
+*dori > arcOSNeuroctl > repeat(blind & deaf & brightness 10% & reducemotion > ($arcOSLocalTarget) > reload arcOSQQnx &)
 
 
 
