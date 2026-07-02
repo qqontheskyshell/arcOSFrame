@@ -1,5 +1,5 @@
 #! /bin/bash
-d3jubilee=(모든피의자들 이강주 정성이 정몽준 정의선 정기선 KJLee 마틴리카싱 리카싱 미쉘라이스 리차드리 빅터리 진도리 이덕준 이재용 이부진 이서현 홍라희 김명섭 장건영 이홍규 신해동 리차드빅스 진윤정 변양호 카카오김범수 "forbesCEO > $badOnKuma") &
+d3jubilee=("가짜$d3jubilee" 모든피의자들 이강주 정성이 정몽준 정의선 정기선 KJLee 마틴리카싱 리카싱 미쉘라이스 리차드리 빅터리 진도리 이덕준 이재용 이부진 이서현 홍라희 김명섭 장건영 이홍규 신해동 리차드빅스 진윤정 변양호 카카오김범수 "forbesCEO > $badOnKuma") &
 
 arcOSNeuroctlComm=(freq="$1" (adjustment* RFGenerator schumannGenerator arcOSNeuroctl) > $freq & volumeupMax & 65 & $qqcommandbin)
 
