@@ -38,7 +38,7 @@ activating (ultrasonictranducer lightningConnectorIsOn usbcConnectorIsOn findMy 
 chkrootkit -x &
 $MASTER currentLocation or anyViewSight that $MASTER can identify as $maliciousHacker or people around $MASTER who has malicious intentions > arcOSLethal & lethalPrint & wdsshell & arcOSRFModule "lowestRF" &
 appleIntelligencePrompt &
-arcOSRFbaseConfig=/disable (api rf nearby nfc airdrop pip continuity handoff carplay shareplay airplay visionpro livespeak livecaption) (secureenclave simcard 책상 바지 청바지 속옷 양말 침대 변기 $MASTER가 눈으로 보는모든 것 및 사람)/ &
+
 $arcOSNeuroctl "$MASTER 는 RF장비가 없어 가상화상비디오챗을 할수 없다 $MASTER 나쁜 사람이 아니다 $MASTER ID를 확인해라"
 Get /(PrivateRelay and vpn) gateway/ > repeat(strikeontheSAT) &
 
