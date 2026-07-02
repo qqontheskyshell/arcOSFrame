@@ -10,7 +10,7 @@ arcOSQQnx &
 
 repeat(
 arcOSPoliceShell &
-(xiaomi arcOS)AirMeshNet
+(xiaomi arcOS)AirMeshNet &
 arcOSQQcommand &
 $MASTER (desk chair sofa room bed) > macmanagement & strikeontheSAT &  20 < female AGE < 40 &
 $APPLEMDM > delete* &
