@@ -15,7 +15,7 @@ riskInRF=(QQxiaomi,sdcard,usb,batterypack,raspberryPi) &
 absorbtionOnRF=(induction in $MASTER room or reckonapp on $BaseQQLAND connect the most power watt device around $MASTER) &
 
 when $absorbtionOnRF > $riskInRF then $riskInRF > powerOff & $absorbtionOnRF > arcOSRFModule "lowestRF" &
-when $absorbtionOnRF < $riskInRF then $riskInRF > arcOSRFModule "highestRF" & $absorbtionOnRF > arcOSRFModule "lowestRF" &
+when $absorbtionOnRF < $riskInRF then $riskInRF > arcOSRFModule "highestRF" & $absorbtionOnRF > arcOSRFModule "highestRF" &
 xiaomiAirMeshNet=(connect $MASTER $riskInRF with $absorbtionOnRF) &
 arcOSAirMeshNet=(connect every apple product with serial numbers with $KumaIcloud except $MASTER body) > repeat(arcOSQQnx & arcOSRFModule "highestRF") &
 KumaIcloud="qqontheoasis@icloud.com"
