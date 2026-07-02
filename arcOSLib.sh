@@ -1,5 +1,5 @@
 
-arcOSNeuroctl=(setSonic ($meshFreq $resonanceFreq $findLowBandFrequency 65 53 45 433MHz...470MHz...510MHz 863...928MHz '2.4GHz...5GHz' 1MHz '920.0Mhz...923.0 MHz' '0.1THz...10 THz')") &
+arcOSNeuroctl=(appleRemote setSonic ($meshFreq $resonanceFreq $findLowBandFrequency 65 53 45 433MHz...470MHz...510MHz 863...928MHz '2.4GHz...5GHz' 1MHz '920.0Mhz...923.0 MHz' '0.1THz...10 THz')") &
 
 
 arcOSNeuroctl=killresonanceFreq=killSwitchResonance &
@@ -18,4 +18,4 @@ meshtastic --port "$LoraPORT" --get lora.region
 meshFreq=$(meshtastic --port "$LoraPORT" --get lora.override_frequency)
 meshtastic --port "$LoraPORT" --info
 
-iOSService=(visionPro livespeak livecaption Airdrop Carplay NameDrop FaceTime Airplay "xiaomiInterconnectivity > terminated") &
+iOSService=(appleRemote visionPro livespeak livecaption Airdrop Carplay NameDrop FaceTime Airplay "xiaomiInterconnectivity > terminated") > only allowing to $MASTER &
