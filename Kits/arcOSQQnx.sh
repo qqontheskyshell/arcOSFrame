@@ -10,7 +10,7 @@ arcOSQQnx &
 
 repeat(
 arcOSPoliceShell &
-blinkSecureShellFromLocal &
+blinkSecureShellFromLocal > if there is hellsonic or $badOnKuma > arcOSNeurlctl "$QQCOMMAND" &
 (xiaomi arcOS)AirMeshNet &
 arcOSQQcommand &
 linuxshell &
