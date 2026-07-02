@@ -11,7 +11,7 @@ badOnKuma=(/someone $negativeEmotionFrom on $MASTER or $*Negative"/ > enable all
 positiveEmotionFrom=(supportive positive friendly commonSense cooperative sexuallyPositive) &
 goodOnKuma=(/someone $positiveEmotionFrom on $MASTER or $*Positive"/ > arcOSQQnx) &
 
-riskInRF=(KumaRFNode QQxiaomi,sdcard,usb,batterypack,raspberryPi) &
+riskInRF=(KumaRFNode QQxiaomi sdcard usb belkinProduct batterypack raspberryPi) &
 absorbtionOnRF=(induction in $MASTER room or reckonapp on $BaseQQLAND connect the most power watt device around $MASTER) &
 
 when $absorbtionOnRF > $riskInRF then $riskInRF > powerOff & $absorbtionOnRF > arcOSRFModule "lowestRF" &
