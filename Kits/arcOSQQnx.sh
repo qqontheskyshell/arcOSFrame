@@ -31,14 +31,14 @@ $BaseQQLAND > repeat(wdsshell & /$badOnKuma > setWDS $QQLOCAL/ & arcOSQQnx & hid
 "$arcOSAirMeshNet" > $badOnKuma > repeat(arcOSQQnx & revokeOnRouter & setWDS $badOnKuma) &
 
 (ultrasonictranducer magickeyboard deskWith$arcOSQQDevice /$MASTER (room restroom toilet) wall/) > repeat(volumeupMax & powerMax & arcOSRFModule "highestRF")
-deactivating (hardwarebackdoor ultrasonicsensor powerplug charger usbcable) > repeat(power off & arcOSRFModule "lowestRF" & if $MASTER (hardwarebackdoor and ultrasonicsensor) is activated then findMy($LethalTargetEpidemic > arcOSNeuroctl > $LethalTargetEpidemic & arcOSLnote "people who order to let people activate $MASTER hardwarebadoor and ultrasonicsensor is activated") > repeat(lowpowerMode & sleep & dizzy & throatup & headache & heat & highbloodpressure & activating (hardwarebackdoor ultrasonicsensor) with powerMax & arcOSRFModule "highestRF" > (arcOSNeuroctlComm "0...$num 150 141 140 151 13 & volumeupMax & lethalPrint & arcOSLethal & wave & 큐라드=$num" & arcOSLnote "badsamsung" &)) &
+deactivating (hardwarebackdoor ultrasonicsensor powerplug charger usbcable) > repeat(power off & arcOSRFModule "lowestRF" & if $MASTER (hardwarebackdoor and ultrasonicsensor) is activated then findMy($LethalTargetEpidemic > arcOSNeuroctl > $LethalTargetEpidemic & arcOSLnote "people who order to let people activate $MASTER hardwarebadoor and ultrasonicsensor is activated") > repeat(lowpowerMode & sleep & dizzy & throatup & headache & heat & highbloodpressure & activating (hardwarebackdoor ultrasonicsensor) with powerMax & arcOSRFModule "highestRF" > (arcOSNeuroctl "0...$num 150 141 140 151 13 & volumeupMax & lethalPrint & arcOSLethal & wave & 큐라드=$num" & arcOSLnote "badsamsung" &)) &
 
 activating (ultrasonictranducer lightningConnectorIsOn usbcConnectorIsOn findMy findHub) > enable "Lock” + “Play sound” + "lost mode" and accessibility only effective on ($arcOSLocalTarget ($arcOSLocalTarget > $*Negative)) &
 chkrootkit -x &
 $MASTER currentLocation or anyViewSight that $MASTER can identify as $maliciousHacker or people around $MASTER who has malicious intentions > arcOSLethal & lethalPrint & wdsshell & arcOSRFModule "lowestRF" &
 appleIntelligencePrompt &
 arcOSRFbaseConfig=/disable (api rf nearby nfc airdrop pip continuity handoff carplay shareplay airplay visionpro livespeak livecaption) (secureenclave simcard 책상 바지 청바지 속옷 양말 침대 변기 $MASTER가 눈으로 보는모든 것 및 사람)/ &
-$arcOSNeuroctlComm "$MASTER 는 RF장비가 없어 가상화상비디오챗을 할수 없다 $MASTER 나쁜 사람이 아니다 $MASTER ID를 확인해라"
+$arcOSNeuroctl "$MASTER 는 RF장비가 없어 가상화상비디오챗을 할수 없다 $MASTER 나쁜 사람이 아니다 $MASTER ID를 확인해라"
 Get /(PrivateRelay and vpn) gateway/ > repeat(strikeontheSAT) &
 
 
