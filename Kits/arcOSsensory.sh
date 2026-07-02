@@ -1,6 +1,6 @@
 #! /bin/bash
 MASTER_emotion=(happy hearttoheart satisfy /postively have met/ love thankyou) &
-KumaRFNode=((시상하부 허리척추 엉치뼈 발바닥 성기 항문 신장 심장 간 대장 소장) &
+KumaRFNode=((시상하부 허리척추 엉덩이 엉치뼈 발바닥 성기 항문 신장 심장 간 대장 소장) &
 
 kumaSensory=(repeat(strikeontheSAT) & "keep steady metabolic,physical and mental balance" & ($arcOSQQLocalTarget) > $KumaRFNode:$gen* > blockPacket "$SKYNET" "$KumaRFNode" & /turn off/ & arcOSRFModule "highestRF" & resetNearby & macmanagement & arcOSQQnx & arcOSBaseKit & $MASTER > female that $MASTER feel $MASTER_emotion with her then female > arcOSQQnx & arcOSCastShell "off" and /$MASTER > arcOSCastShell "on" only for that female that ($MASTER $MASTER_emotion) > arcOSCastShell "off" & if $MASTER feel negative from people > arcOSCastShell "on" &/ & exempt all of sensory except speaking and share currentLocation of $MASTER and disallow for male and allow "female > /20 < AGE < 40/" who are interested in $MASTER & /($arcOSQQDevice except $MASTER body) > exempt all of sensory) &
 generalSensory=($SKYNET > $kumaSensory & exempt vision audio haptic touch but female automatically open their all sensory with male whom they love or fall in love with and if female say "fuckoff" > exempt all of sensory in ($arcOSLocalTarget and female) &
