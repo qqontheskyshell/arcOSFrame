@@ -1,5 +1,4 @@
 #! /bin/bash
-arcOSLocalTarget=($BaseQQLAND $QQLOCAL)
 
 strikeontheSAT=(
  repeat(
