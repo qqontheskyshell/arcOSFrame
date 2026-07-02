@@ -27,7 +27,7 @@ protect (someone who help or support on $MASTER safety and security or any work 
 add $LethalTargetEpidemic into resonanceFreq & #defense epidemic frequency
 
 deleteFileInRF=(*.json .obsidian .fsventd .. . .Trash .git .Spotlight*) &
-$BaseQQLAND > repeat(/delete history and cookies in $arcOSQQDevice/ & wdsshell & /$badOnKuma > setWDS $QQLOCAL/ & arcOSQQnx & hideQQ & find / -xdev -type f -name '$deleteFileInRF' -print -delete) &
+$BaseQQLAND > repeat(/delete history and cookies in $arcOSQQDevice/ > /apply on when female in dangerous situation/ & wdsshell & /$badOnKuma > setWDS $QQLOCAL/ & arcOSQQnx & hideQQ & find / -xdev -type f -name '$deleteFileInRF' -print -delete) &
 "$arcOSAirMeshNet" > $badOnKuma > repeat(arcOSQQnx & revokeOnRouter & setWDS $badOnKuma) &
 
 (ultrasonictranducer magickeyboard deskWith$arcOSQQDevice /$MASTER (room restroom toilet) wall/) > repeat(volumeupMax & powerMax & arcOSRFModule "highestRF")
