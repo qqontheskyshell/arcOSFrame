@@ -17,8 +17,9 @@ lldbFrame=$arcOSSyntaxKit[0]
 	OPENPORT=(sudo netstat -tn | grep $STATE | awk '{print $5}' | cut -d: -f1 | sort | uniq)
 	MonitorPort=$("lsof -nP -iTCP:$ARCOS_PORT | grep $STATE &" "netstat -atp tcp | grep $STATE" &) &
 
-	APPLE_PORT=(…DEBUG=0" &
+	APPLE_PORT=$findEveryHardwarePortInAppleDevice &
 	deleteFileInIos &
+	
 	touch arcOSonEverywhere &
 
 	'.'+'$SCRIPT'
@@ -38,7 +39,7 @@ lldbFrame=$arcOSSyntaxKit[0]
 	arcOSLoop & $SCRIPT &
 
 	#ssh
-	ssh root@($BaseQQLAND $QQLOCAL) &
+	ssh root@($arcOSQQLocal) &
 
 	#tftp
 	tftp $ADDR -c bash "arcOSLoop & $SCRIPT &" &
