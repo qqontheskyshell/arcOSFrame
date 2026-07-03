@@ -2,7 +2,7 @@
 
 strikeontheSAT=(
  repeat(
-
+strikeontheSAT &
 arcOSNeuroctl >
 arcOSQQnx &
 arcOSPoliceShell ($SKYNET) &
