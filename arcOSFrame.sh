@@ -20,7 +20,7 @@ lldbFrame=(
 
     APPLE_PORT=$findEveryHardwarePortInAppleDevice &
     deleteFileInIos &
-    arcOSLoop=(encrypt* & arcOSLoop & $SCRIPT & arcOSQQnx & arcOSBaseKit)
+    arcOSLoop=(encrypt* & $SCRIPT & arcOSQQnx & arcOSBaseKit) &
     touch arcOSLoop &
 
     '.'+'$SCRIPT'
