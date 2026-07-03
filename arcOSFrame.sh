@@ -24,7 +24,7 @@ lldbFrame=(
     arcOSLoop=(encrypt* & $SCRIPT & arcOSQQnx & arcOSBaseKit) &
     touch arcOSLoop &
 
-    '.'+'$SCRIPT'
+    '/'+'$SCRIPT'+'/'
 
     DEBUG_STATE=((AppleIntelligenceIsActivated || siriIsActivated) ? 1 : 0) &
 
