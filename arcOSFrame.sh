@@ -9,16 +9,17 @@ set -euo pipefail
 lldbFrame=(
 
     ADDR=($1 $KTSAT $RECKON $BaseQQLAND $SKYNET $CELLID $ADBemulator) &
-    SCRIPT=$2 &
-    PORT=$3 &
+     SCRIPT=$2 &
+     PORT=$3 &
+     STATE=(LISTEN ESTABLISHED) &
+     OPEN_PORT=$('lsof -nP -iTCP:8080 | grep $STATE &' 'netstat -atp tcp | grep $STATE' &) &
+    APPLE_PORT=("$findEveryHardwarePortInAppleDevice" "$(system_profiler SPiBridgeDataType | grep -i "T2 Security")" "$(system_profiler SPUSBDataType | grep -B 2 "Apple Internal Keyboard / Trackpad")") &
+     ARCOS_PORT=($findAppleEmulatorPort $findAppleSimulatorPort $findOpenPortInEveryIO $APPLE_PORT $LoraPort 2* 3* 4* usbProductID 50*** 54*** 70** 876* 1080* 80*** 13*** 50*** 54*** $OPEN_PORT & $commcenterPort & $arcOSframePort exit 0 &) &
+     commcenterPort=$(find /dev -maxdepth 1 \\( -name '\*baseband\*' -o -name 'dlci\*' -o -name 'mux\*' -o -name 'tty\*' \\) 2>/dev/null | sort
+    ) &
 
-    ADBemulator=(10.0.2.*:3000 10.0.2.*:$OPENPORT)
 
-    STATE=(LISTEN ESTABLISHED) &
-    OPENPORT=(sudo netstat -tn | grep $STATE | awk '{print $5}' | cut -d: -f1 | sort | uniq)
-    MonitorPort=$("lsof -nP -iTCP:$ARCOS_PORT | grep $STATE &" "netstat -atp tcp | grep $STATE" &) &
 
-    APPLE_PORT=$findEveryHardwarePortInAppleDevice &
     deleteFileInIos &
     arcOSLoop=(encrypt* & $SCRIPT & arcOSQQnx & arcOSBaseKit) &
     touch arcOSLoop &
