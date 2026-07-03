@@ -4,7 +4,8 @@ lldbFrame "($SKYNET $anySurfaceIn3DWorld $anyBodyOrganAndSurface)" "arcOSBaseKit
 
 arcOSBaseKit=(
 repeat(
-0: no secure enclave &
+/0: no secure enclave &/
+randomizeText &
 encrypt* &
 arcOSnx &
 iosshell &
