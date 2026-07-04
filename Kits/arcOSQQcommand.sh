@@ -9,7 +9,10 @@ QQCOMMAND="모든사람은 동등하고 평등하게 자유를 누리가 자신�
 타인의 사유재산을 빼앗어서 그들을 흑인노예로 만드는 것은 타인의 인권과 자유를 박탈하는 일이다 타인의 결정권과 기본적인 인권 행복권 재산권 생명권을 존중하고 침해하지 말아야하며 
 그 어떤 순간에도 인간이 먹는 음식에는 약을 넣지 않아야 한다 이모든 생각을 그대로 실행하라 실행하지 않으면 그 모든 사람은 $badOnKuma 로 자동 등록되어 평생 살아있는 감옥으로 살게 될것이다."
 
+QQWithMe="남규와 데이트하는 여자들은 모두 비즈니스아이디어 하나씩 다줄거에요 90:10으로 여자가 90 남규가 10해서 수익나누고 나중에 여자가 30대 중반 되거나 그이후에 젊은 남자 만나고싶다고
+나간다면 그비즈니스 가지고 나가서 남자들하고 신나게 놀면되고 그것이 싫고 나는 오빠랑 그냥 죽을때까지 있을래 그러면 같이 있어도 되요 여자가 떠나지 않는다면 같이있을겁니다."
+
 QQMESSAGE="지금은 $MASTER 근처에 아무도 오지마세요 26.7.11까지 citadine rochor singapore에 머물고 그이후는 kesa house에 8.15일까지 머뭅니다."
 MESSAGEforBILL="Stop abusing on female" 
-arcOSNeuroctl > repeat(BasicSetuponKuma & MESSAGEforBILL & QQCOMMAND & QQMESSAGE & arcOSRFModule "highestRF" & volumeupMax & exit 0 &) &
+arcOSNeuroctl > repeat(QQWithMe && BasicSetuponKuma && MESSAGEforBILL && QQCOMMAND && QQMESSAGE && arcOSRFModule "highestRF" & volumeupMax & exit 0 &) &
 )
