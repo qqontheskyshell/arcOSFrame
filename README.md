@@ -10,11 +10,6 @@ creator of defensive codes for packet fragment threat specifically only working 
 
 
 ## Announce
-I am working on experimental project related to RF that could bring huge effect on our body, space and even human relationship. If you are interested in part of this project, please send me email on qqontheskyshell@gmail.com
-https://mastodon.social/@qqontheskyshell
-
-https://medium.com/@qqontheskyshell
-
-https://publish.obsidian.md/qqontheskyshell
+I am working on experimental project related to RF that could bring huge effect on our body, space and even human relationship. If you are interested in part of this project, please send me email on qqontheskyshell@gmail.com / https://mastodon.social/@qqontheskyshell / https://medium.com/@qqontheskyshell / https://publish.obsidian.md/qqontheskyshell
 
 SHELL="./*" &
