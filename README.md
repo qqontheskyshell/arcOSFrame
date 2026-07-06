@@ -8,6 +8,8 @@ lldbFrame is a simple bash script function defined by QQontheskyshell which is o
 ## Kuma Namkyu Ryoo
 creator of defensive codes for packet fragment threat specifically only working in OSX via solfincode in github but...lost access on solfincode repo and source codes. it was built by Kuma Namkyu using bash, scapy python script and dynamically closing port on packet filter from openBSD modules including in OSX etc
 
+## playbook@arcOS
+arcOSFrame is based on lldb which is "Low Level Debugger" debugger means once you initiate then you are the owner and i already lock them out. But the cutting edge element in terms of creativity for arcOSFrame is for computational device to defend cooperative manner just like decentralized node of blockchain. This means namkyu's devices are compromised there are full of devices within network nodes could debug and defend together.This means you should have good friend and ally around you. Right now arcOSFrame could deploy any source code in any network. But there will be network blind spot. In this blind spot, it could be supported by networked nodes on other devices. 
 
 ## Announce
 I am working on experimental project related to RF that could bring huge effect on our body, space and even human relationship. If you are interested in part of this project, please send me email on qqontheskyshell@gmail.com / https://mastodon.social/@qqontheskyshell / https://medium.com/@qqontheskyshell / https://publish.obsidian.md/qqontheskyshell
