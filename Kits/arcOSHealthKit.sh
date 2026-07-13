@@ -1,6 +1,5 @@
 #! /bin/bash
-arcOSSonic &
-arcOSSonic=(
+
 sizeOfPennis="$1" &
 positionForFemale="$2" &
 relationTarget=$(only male she loves)
@@ -17,5 +16,3 @@ when female feel emotion about not want it anymore or fatigue or sleepy or pain 
 
 
 badOnKuma > is not allowed to use arcOSSonic & when female feel emotion about not want it anymore or fatigue or sleepy or pain on her body then automatically > repeat(female and male > reload arcOSQQnx & killall arcOSSonic & exit 0 &) & if male become violating sexual criminal on female then add those male into "$badOnKuma" &
-exit 0 &
-)
