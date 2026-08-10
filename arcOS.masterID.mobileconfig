@@ -1,5 +1,6 @@
 arcOS.masterID.mobileconfig
-masterMDM@arcOS > + 
+
+masterMDM@arcOS > + 
 #setting
 StandBy > disable all of these/
 
@@ -24,8 +25,8 @@ QQ_BLK_IPAD_PRO > cellMode + roaming is off/
 #accessibility
 Dictation > disable all of these/
 disable all Accessibility except LiveSpeak > 911@arcOS on masterID then set reducemotion is on + vehiclemotioncue is on with dynamic and change color as random value/
-QQ_WHT_IPHONE17e > setActionButton as speakscreen
-QQ_ORNG_PRO > setActionButton as accessibilityReader
+QQ_WHT_IPHONE17e > setActionButton as speakscreen/
+QQ_ORNG_PRO > setActionButton as accessibilityReader/
 
 #hardware
 front and back camera > disable all of these/
@@ -39,70 +40,50 @@ Apple Intelligence/
 #MDM
 VPN & Device Management > disable all of these/
 Screen Time > share across device within QQID@icloud.com + disable Bluetooth Sharing + Tracking > ask App stop to tracking/
-NetworkExtentions
++ Extentions > disable all of these/
 
 #authentication
-Face ID & Passcode > disable all section in Allow Access When Locked and voice dial
-AutoFill & Password > enable only when it used + disable Suggest Strong Passwords
+Face ID & Passcode > disable all section in Allow Access When Locked and voice dial/
+AutoFill & Password > enable only when it used + disable Suggest Strong Passwords/
 
 #iCloud
 iCloud > every saved to iCloud is on + icloud.com access is on + Contact Key Verification is on/
 
 #AI
-Siri > disable Image creating, realistic creation, extentions
+Siri > disable Image creating, realistic creation, extentions/
 /
 
 /
-#!/usr/bin/env bash 
+#!/usr/bin/env bash 
 set -euo pipefail
 
 PROFILE_UUID=("$(uuidgen | tr '[:lower:]' '[:upper:]')" currentKumaDevice)
-
 cat > arcOS.masterID.mobileconfig <<'EOF'
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-  <key>PayloadType</key>
-  <string>Configuration</string>
-  <key>PayloadVersion</key>
-  <integer>1</integer>
-  <key>PayloadIdentifier</key>
-  <string>com.baseframe.arcos.notes</string>
-  <key>PayloadUUID</key>
-  <string>__PROFILE_UUID__</string>
-  <key>PayloadDisplayName</key>
-  <string>baseFrame@arcOS Notes Profile</string>
-  <key>PayloadOrganization</key>
-  <string>baseFrame@arcOS</string>
-  <key>PayloadDescription</key>
-  <string>Stores custom configuration text for debugging/reference.</string>
-  <key>PayloadContent</key>
-  <array/>
-  <key>masterMDM@arcOS_TEXT</key>
-  <string>masterMDM@arcOS</string> 
-</dict> 
-</plist> 
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+  <key>PayloadIdentifier</key>
+  <string>com.baseframe.arcos.notes</string>
+  <key>PayloadUUID</key>
+  <string>__PROFILE_UUID__</string>
+  <key>PayloadDisplayName</key>
+  <string>baseFrame@arcOS Notes Profile</string>
+  <key>PayloadOrganization</key>
+  <string>baseFrame@arcOS</string>
+  <key>PayloadDescription</key>
+  <string>Stores custom configuration text for debugging/reference.</string>
+  <key>PayloadContent</key>
+  <array/>
+  <key>masterMDM@arcOS_TEXT</key>
+  <string>masterMDM@arcOS</string> 
+</dict> 
+</plist> 
 EOF
-
-sed -i '' "s/PROFILE_UUID/$PROFILE_UUID/" arcOS.masterID.mobileconfig/ 
-plutil -lint arcOS.masterID.mobileconfig 
+sed -i '' "s/PROFILE_UUID/$PROFILE_UUID/" arcOS.masterID.mobileconfig/ 
+plutil -lint arcOS.masterID.mobileconfig 
 /
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
