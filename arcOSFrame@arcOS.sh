@@ -97,5 +97,5 @@ targetFace="1" 
 always /arcOSID "masterID"" "arcOSQQDevice" or "FULL_SERIAL_DEVICE"/ for "targetFace" "personWhoLostTheirMindUnderLegalSystem" "goodPeople" "arcOSQQLocalTargetTarget"  /
 /
 
-neoOS@arcOS > + localhost version of neoOSCloud@arcOS + use every tatics you could defend neoOS@arcOS using every network skillset such as nmapnearDeviceDiscoveryfirwalldeep inspection on packetpfctlsuricata using BaseNet@arcOS/
+neoOS@arcOS > + localhost version of neoOSCloud@arcOS + use every tatics you could defend neoOS@arcOS using every network skillset such as nmap nearDeviceDiscovery, firwall packet deep inspection and block all packet using pfctl suricata localhost within neoOS@arcOS/
 ///end of arcOSFrame
