@@ -3,7 +3,7 @@
 arcOSFrame@arcOS > +
 +every code name ending with @arcOS will be utilizing arcOSFrame@arcOS to debug 0 + lock +BaseConfig@arcOS + Base@arcOS/
 +lldbFrame is converting into arcOSFrame@arcOS/
-+SCRIPT="neoOS@arcOS + baseFrame@arcOS + collect every other component within neoOS@arcOS" 
++SCRIPT="neoOS@arcOS + embed@arcOS + baseFrame@arcOS + collect every other component within neoOS@arcOS" 
 +PORT="hwport@arcOS + ARCO_PORT+randomize with BaseNet@arcOS"
 +BaseNet@arcOS/
 +ADDR > + "1" + arcOSQQLocalTargetTarget + SKYNET + CELLID + ADBemulator  + arcOSRFtarget + skyNetSatellite + FULL_SERIAL_DEVICE/
