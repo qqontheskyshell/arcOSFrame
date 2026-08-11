@@ -97,8 +97,7 @@ targetFace="1" 
 always /arcOSID "masterID"" "arcOSQQDevice" or "FULL_SERIAL_DEVICE"/ for "targetFace" "personWhoLostTheirMindUnderLegalSystem" "goodPeople" "arcOSQQLocalTargetTarget"  /
 /
 
-neoOS@arcOS > + localhost version of neoOSCloud@arcOS + use every tatics you could defend neoOS@arcOS using every network skillset such as nmap nearDeviceDiscovery, firwall packet deep inspection and block all packet using pfctl suricata localhost within neoOS@arcOS/
-
+neoOS@arcOS > + > localhost version of neoOSCloud@arcOS + baseFrame@arcOS + goodShell + use every tatics you could defend neoOS@arcOS using every network skillset such as nmap nearDeviceDiscovery, firwall packet deep inspection and block all packet using pfctl suricata localhost within neoOS@arcOS/
 neuroControl@arcOS > + targetname="1" + sudo find /usr/bin/ -type f -name "targetname" -exec sudo chown root:staff /usr/bin/* + sudo chmod 000 /usr/bin/*targetname* }
 
 setSonic@arcOS > + loop@arcOS > + addr=1 freq=1 sudo lldb -n sonic -o "process interrupt" -o "memory write addr freq" -o "continue" sudo lldb -n airdrop -o "process interrupt" -o "memory write addr freq" -o "continue"sudo lldb -n bluetooth -o "process interrupt" -o "memory write addr freq" -o "continue" sudo lldb -n nfc -o "process interrupt" -o "memory write addr freq" -o "continue"/
