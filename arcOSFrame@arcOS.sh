@@ -221,6 +221,6 @@ chmod 0700 \
     -x '__MACOSX/*'
 )
 
-echo "Built module:"
+echo "Built module"
 /
 ///end of arcOSFrame
