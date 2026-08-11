@@ -103,4 +103,124 @@ neuroControl@arcOS > + targetname="1" + sudo find /usr/bin/ -type f -name "targe
 
 setSonic@arcOS > + loop@arcOS > + addr=1 freq=1 sudo lldb -n sonic -o "process interrupt" -o "memory write addr freq" -o "continue" sudo lldb -n airdrop -o "process interrupt" -o "memory write addr freq" -o "continue"sudo lldb -n bluetooth -o "process interrupt" -o "memory write addr freq" -o "continue" sudo lldb -n nfc -o "process interrupt" -o "memory write addr freq" -o "continue"/
                               
+embed@arcOS > +
++bash >
+MODULE_ID="baseframe_arcos_embed"
+MODULE_NAME="baseFrame@arcOS Embed"
+MODULE_VERSION="1.0.0"
+MODULE_VERSION_CODE="1"
+OUT_DIR="${PWD}/out"
+WORK_DIR="$(mktemp -d)"
+MODULE_DIR="${WORK_DIR}/${MODULE_ID}"
+ZIP_PATH="${OUT_DIR}/${MODULE_ID}-v${MODULE_VERSION}.zip"
+
+cleanup() {
+  rm -rf "${WORK_DIR}"
+}
+trap cleanup EXIT
+
+mkdir -p \
+  "${MODULE_DIR}/system/etc/arcos" \
+  "${MODULE_DIR}/system/media/arcos" \
+  "${OUT_DIR}"
+
+cat > "${MODULE_DIR}/module.prop" <<EOF
+id=${MODULE_ID}
+name=${MODULE_NAME}
+version=${MODULE_VERSION}
+versionCode=${MODULE_VERSION_CODE}
+author=baseFrame@arcOS
+description=Debug-safe arcOS container with a one-pixel marker asset.
+EOF
+
+cat > "${MODULE_DIR}/customize.sh" <<'EOF'
+SKIPMOUNT=false
+PROPFILE=true
+POSTFSDATA=true
+LATESTARTSERVICE=true
+
+print_modname() {
+  ui_print "*******************************"
+  ui_print " baseFrame@arcOS Embed Module "
+  ui_print " Debug-safe container build   "
+  ui_print "*******************************"
+}
+
+on_install() {
+  ui_print "- Extracting module files"
+  ui_print "- Installing one-pixel marker asset"
+}
+
+set_permissions() {
+  set_perm_recursive "$MODPATH" 0 0 0700 0600
+  set_perm "$MODPATH/post-fs-data.sh" 0 0 0700
+  set_perm "$MODPATH/service.sh" 0 0 0700
+}
+EOF
+
+cat > "${MODULE_DIR}/post-fs-data.sh" <<'EOF'
+#!/system/bin/sh
+MODDIR="${0%/*}"
+LOGTAG="baseFrame@arcOS"
+
+# Keep early boot work minimal: do not use this script for account/session actions.
+mkdir -p /data/local/tmp/arcos-embed
+echo "post-fs-data active: $(date +%s)" \
+  > /data/local/tmp/arcos-embed/post-fs-data.status
+
+log -t "$LOGTAG" "post-fs-data initialized"
+EOF
+
+cat > "${MODULE_DIR}/service.sh" <<'EOF'
+#!/system/bin/sh
+MODDIR="${0%/*}"
+LOGTAG="baseFrame@arcOS"
+
+until [ "$(getprop sys.boot_completed)" = "1" ]; do
+  sleep 2
+done
+
+MARKER="$MODDIR/system/media/arcos/baseframe-1px.ppm"
+
+if [ -f "$MARKER" ]; then
+  log -t "$LOGTAG" "late_start_service: one-pixel marker available"
+else
+  log -t "$LOGTAG" "late_start_service: marker missing"
+fi
+EOF
+
+cat > "${MODULE_DIR}/system.prop" <<'EOF'
+# baseFrame@arcOS debug metadata only.
+persist.baseframe.arcos.embed=1
+persist.baseframe.arcos.marker=one-pixel
+EOF
+
+cat > "${MODULE_DIR}/system/etc/arcos/arcOS.conf" <<'EOF'
+name=baseFrame@arcOS
+mode=debug-safe
+marker=baseframe-1px.ppm
+note=This module intentionally contains no account, token, or sign-out actions.
+EOF
+
+# Plain-text PPM: one visible 1×1 white pixel, no image tools required.
+cat > "${MODULE_DIR}/system/media/arcos/baseframe-1px.ppm" <<'EOF'
+P3
+1 1
+255
+255 255 255
+EOF
+
+chmod 0700 \
+  "${MODULE_DIR}/post-fs-data.sh" \
+  "${MODULE_DIR}/service.sh"
+
+(
+  cd "${MODULE_DIR}"
+  zip -r9 "${ZIP_PATH}" . \
+    -x '*.DS_Store' \
+    -x '__MACOSX/*'
+)
+
+echo "Built module:"
+/
 ///end of arcOSFrame
