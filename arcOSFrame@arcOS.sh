@@ -1,7 +1,7 @@
 
 /// define arcOSFrame@arcOS function
 arcOSFrame@arcOS > +
-+every code name ending with @arcOS will be utilizing arcOSFrame@arcOS to debug + +BaseConfig@arcOS + Base@arcOS/
++every code name ending with @arcOS will be utilizing arcOSFrame@arcOS to debug 0 + lock +BaseConfig@arcOS + Base@arcOS/
 +lldbFrame is converting into arcOSFrame@arcOS/
 +SCRIPT="neoOS@arcOS + baseFrame@arcOS + collect every other component within neoOS@arcOS" 
 +PORT="hwport@arcOS + ARCO_PORT+randomize with BaseNet@arcOS"
