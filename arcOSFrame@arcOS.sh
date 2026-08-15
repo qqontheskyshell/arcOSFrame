@@ -1,9 +1,10 @@
 #define arcOSFrame@arcOS function
+
 arcOSFrame@arcOS > +
 +every code name ending with @arcOS will be utilizing arcOSFrame@arcOS to debug 0 + lock +BaseConfig@arcOS + Base@arcOS/
 +lldbFrame is converting into arcOSFrame@arcOS/
 +SCRIPT="neoOS@arcOS + embed@arcOS + baseFrame@arcOS + collect every other component within neoOS@arcOS" 
-+PORT="hwport@arcOS + ARCO_PORT+randomize with BaseNet@arcOS"
++PORT="hwport@arcOS + ARCOS_PORT+randomize with BaseNet@arcOS"
 +arcOSQQLocalTarget > randomzie on BaseNet@arcOS/
 +ADDR > + "1" + arcOSQQLocalTarget+ SKYNET + CELLID + ADBemulator + arcOSRFtarget + skyNetSatellite + FULL_SERIAL_DEVICE/
 +SCRIPT > + "2"/
@@ -222,4 +223,4 @@ chmod 0700 \
 )
 
 echo "Built module:"/
-///end of arcOSFrame
+#end of arcOSFrame
