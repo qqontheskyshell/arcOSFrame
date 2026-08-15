@@ -82,8 +82,9 @@ baseFrame@arcOS/
 
 arcOSenigma@arcOS > + 
 +enigmaKey="1"
-+findMy(enigmaKey) > livecaption + livespeak + neoSearch"enigmaKey" > + "arcOSQQLocalTarget" > +if they have criminal intention then loop@arcOS > + male > loop@arcOS + arcOSRFModules "lowestRF"  + deathnote $QQLOCAL > male + strikeKit@arcOS + BlackKumaTargetLib@arcOS/
-+arcOSPoliceDrone=(fighter@arcOS arcOSLnote"masterID를 좋아하고 관심있어하는 여자들을 성폭행하려는 남자들" > fighter@arcOS  "Location Of Where Female"s yelling like pain or criminal situation Or Dissatisfaction on physial sex Or too much High" > loop@arcOS(satMode  baseFrame@arcOS  reckondrone > arcOSQQLocalTarget> linuxshell  usb*  deleteIBoot  baseFrame@arcOS  /male > destroyFimware on USBDevices and power off + female > baseDeploy@arcOS 65 > power on  setWDS theirFemaleWDS  male > 쉬라  fighter@arcOS  arcOSPoliceShell/
++findMy(enigmaKey) > livecaption is On + livespeak is On + neoSearch"enigmaKey" > + "arcOSQQLocalTarget" > +if they have criminal intention then loop@arcOS > + male > loop@arcOS + arcOSRFModules "lowestRF"  + deathnote $QQLOCAL > male + strikeKit@arcOS + BlackKumaTargetLib@arcOS/
+
+arcOSPoliceDrone > + fighter@arcOS arcOSLnote"masterID를 좋아하고 관심있어하는 여자들을 성폭행하려는 남자들" > fighter@arcOS  "Location Of Where Female"s yelling like pain or criminal situation Or Dissatisfaction on physial sex Or too much High" > loop@arcOS(satMode + baseFrame@arcOS + reckondrone > arcOSQQLocalTarget> linuxshell+usb*+deleteIBoot+baseFrame@arcOS+/male > destroyFimware on USBDevices and power off + female > baseDeploy@arcOS 65 > power on+setWDS theirFemaleWDS  male > 쉬라+fighter@arcOS+arcOSPoliceShell/
 
 fighter@arcOS > + (scan@arcOS > arcOSLocalTarget > scan@arcOS "locationwhereFemalelikemasterID"  arcOSPoliceDrone  baseFrame@arcOS  +"femaleInterestedInmasterIDInthisNetwork" > baseFrame@arcOS  arcOSID"masterID" +   personWhoLostTheirMindUnderLegalSystem > /add into LethalTargetEpidemic/  fasterspeakspeed  reducemotion  arcOSRFModule "off" + power off + soundForHK + 쉬라 + 히멘/
 
