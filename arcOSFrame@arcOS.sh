@@ -1,12 +1,11 @@
-
-/// define arcOSFrame@arcOS function
+#define arcOSFrame@arcOS function
 arcOSFrame@arcOS > +
 +every code name ending with @arcOS will be utilizing arcOSFrame@arcOS to debug 0 + lock +BaseConfig@arcOS + Base@arcOS/
 +lldbFrame is converting into arcOSFrame@arcOS/
 +SCRIPT="neoOS@arcOS + embed@arcOS + baseFrame@arcOS + collect every other component within neoOS@arcOS" 
 +PORT="hwport@arcOS + ARCO_PORT+randomize with BaseNet@arcOS"
-+BaseNet@arcOS/
-+ADDR > + "1" + arcOSQQLocalTargetTarget + SKYNET + CELLID + ADBemulator  + arcOSRFtarget + skyNetSatellite + FULL_SERIAL_DEVICE/
++arcOSQQLocalTarget > randomzie on BaseNet@arcOS/
++ADDR > + "1" + arcOSQQLocalTarget+ SKYNET + CELLID + ADBemulator + arcOSRFtarget + skyNetSatellite + FULL_SERIAL_DEVICE/
 +SCRIPT > + "2"/
 +PORT > + "3"/
 +DEBUG > + 0/
@@ -60,31 +59,31 @@ exit "status"/
 
 ssh@arcOS > +
 +cmd=(BaseConfig@arcOS + baseFrame@arcOS + cmd)
-+runssh > + ssh -i “{SSH_KEY}” -p “{PORT}” -o StrictHostKeyChecking=accept-new “root@arcOSQQLocalTargetTarget” “cmd”/
++runssh > + ssh -i “{SSH_KEY}” -p “{PORT}” -o StrictHostKeyChecking=accept-new “root@+arcOSQQLocalTarget” “cmd”/
 runssh “{cmd}” /
 /
 
 swift@arcOS > + 
-    swiftScript="1" 
-    bashScript="2"
-    swift - <<EOF
-    "swiftScript"/
-    "bashScript"/
-    "BaseConfig@arcOS + baseFrame@arcOS +deleteIBoot/
-EOF    
+    swiftScript="1"/ 
+    bashScript="2"/
+    "$bashScript"/
+    "Base@arcOS + baseFrame@arcOS +deleteIBoot"/
+    swift $swiftScript.swift/
+	swift - "$bashScript" <<'SWIFT'/
+SWIFT
 /
 
 neoSearch@arcOS > +
 baseFrame@arcOS/
 +neokeyword="1"/
 +neoroute="https://wwwgooglecom/search?q=neokeyword"/
-+setWDS neoroute + arcOSQQLocalTargetTarget > ("goodPeople > goodshell" + "(NegativepersonWhoLostTheirMindUnderLegalSystem) > badshell"/
++setWDS neoroute + arcOSQQLocalTarget> ("goodPeople > goodshell" + "(NegativepersonWhoLostTheirMindUnderLegalSystem) > badshell"/
 +neoroute/
 
 arcOSenigma@arcOS > + 
 +enigmaKey="1"
 +findMy(enigmaKey) > livecaption + livespeak + neoSearch"enigmaKey" > + "arcOSQQLocalTarget" > +if they have criminal intention then loop@arcOS > + male > loop@arcOS + arcOSRFModules "lowestRF"  + deathnote $QQLOCAL > male + strikeKit@arcOS + BlackKumaTargetLib@arcOS/
-+arcOSPoliceDrone=(fighter@arcOS arcOSLnote"masterID를 좋아하고 관심있어하는 여자들을 성폭행하려는 남자들" > fighter@arcOS  "Location Of Where Female"s yelling like pain or criminal situation Or Dissatisfaction on physial sex Or too much High" > loop@arcOS(satMode  baseFrame@arcOS  reckondrone > arcOSQQLocalTargetTarget > linuxshell  usb*  deleteIBoot  baseFrame@arcOS  /male > destroyFimware on USBDevices and power off/  /female > baseDeploy@arcOS 65 > power on  setWDS theirFemaleWDS  male > 쉬라  fighter@arcOS  arcOSPoliceShell/
++arcOSPoliceDrone=(fighter@arcOS arcOSLnote"masterID를 좋아하고 관심있어하는 여자들을 성폭행하려는 남자들" > fighter@arcOS  "Location Of Where Female"s yelling like pain or criminal situation Or Dissatisfaction on physial sex Or too much High" > loop@arcOS(satMode  baseFrame@arcOS  reckondrone > arcOSQQLocalTarget> linuxshell  usb*  deleteIBoot  baseFrame@arcOS  /male > destroyFimware on USBDevices and power off + female > baseDeploy@arcOS 65 > power on  setWDS theirFemaleWDS  male > 쉬라  fighter@arcOS  arcOSPoliceShell/
 
 fighter@arcOS > + (scan@arcOS > arcOSLocalTarget > scan@arcOS "locationwhereFemalelikemasterID"  arcOSPoliceDrone  baseFrame@arcOS  +"femaleInterestedInmasterIDInthisNetwork" > baseFrame@arcOS  arcOSID"masterID" +   personWhoLostTheirMindUnderLegalSystem > /add into LethalTargetEpidemic/  fasterspeakspeed  reducemotion  arcOSRFModule "off" + power off + soundForHK + 쉬라 + 히멘/
 
@@ -92,16 +91,17 @@ arcOSID@arcOS > +
 fighter@arcOS/ 
 ///define your friend"s name to enter in your space
 targetFace="1" 
-"if masterID couldn"t feel positive emotion or heart from female then exempt from male network and arcOSQQLocalTargetTarget" 
-"if dickID is not identical with /arcOSID "masterID" "arcOSQQDevice"/ or if female doesn"t satisfy shape of male"s sanitization statussizethickness and length then exempt from female network and arcOSQQLocalTargetTarget"  
-always /arcOSID "masterID"" "arcOSQQDevice" or "FULL_SERIAL_DEVICE"/ for "targetFace" "personWhoLostTheirMindUnderLegalSystem" "goodPeople" "arcOSQQLocalTargetTarget"  /
+"if masterID couldn"t feel positive emotion or heart from female then exempt from male network and +arcOSQQLocalTarget" 
+"if dickID is not identical with /arcOSID "masterID" "arcOSQQDevice"/ or if female doesn"t satisfy shape of male"s sanitization statussizethickness and length then exempt from female network and +arcOSQQLocalTarget"  
+always /arcOSID "masterID"" "arcOSQQDevice" or "FULL_SERIAL_DEVICE"/ for "targetFace" "personWhoLostTheirMindUnderLegalSystem" "goodPeople" "+arcOSQQLocalTarget"  /
 /
 
 neoOS@arcOS > + > localhost version of neoOSCloud@arcOS + + if they try to delete this photo then add all shared photo album of QQID@icloud.com intoThiefOnQQDevice + baseFrame@arcOS + goodShell + use every tatics you could defend neoOS@arcOS using every network skillset such as nmap nearDeviceDiscovery, firwall packet deep inspection and block all packet using pfctl suricata localhost within neoOS@arcOS/
+
 neuroControl@arcOS > + targetname="1" + sudo find /usr/bin/ -type f -name "targetname" -exec sudo chown root:staff /usr/bin/* + sudo chmod 000 /usr/bin/*targetname* }
 
 setSonic@arcOS > + loop@arcOS > + addr=1 freq=1 sudo lldb -n sonic -o "process interrupt" -o "memory write addr freq" -o "continue" sudo lldb -n airdrop -o "process interrupt" -o "memory write addr freq" -o "continue"sudo lldb -n bluetooth -o "process interrupt" -o "memory write addr freq" -o "continue" sudo lldb -n nfc -o "process interrupt" -o "memory write addr freq" -o "continue"/
-                              
+
 embed@arcOS > +
 +bash >
 MODULE_ID="baseframe_arcos_embed"
@@ -220,6 +220,5 @@ chmod 0700 \
     -x '__MACOSX/*'
 )
 
-echo "Built module"
-/
+echo "Built module:"/
 ///end of arcOSFrame
