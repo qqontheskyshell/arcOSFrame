@@ -1,5 +1,6 @@
-arcOS.mobileconfig
-/
+```bash
+
+
 #!/usr/bin/env bash 
 set -euo pipefail
 
@@ -35,3 +36,5 @@ EOF
 sed -i '' "s/PROFILE_UUID/$PROFILE_UUID/" arcOS.mobileconfig/ 
 plutil -lint arcOS.mobileconfig 
 /
+
+```

@@ -1,5 +1,4 @@
-arcOS.masterID.mobileconfig
-
+```bash
 masterMDM@arcOS > + 
 #setting
 StandBy > disable all of these/
@@ -87,3 +86,5 @@ EOF
 sed -i '' "s/PROFILE_UUID/$PROFILE_UUID/" arcOS.masterID.mobileconfig/ 
 plutil -lint arcOS.masterID.mobileconfig 
 /
+
+```
