@@ -1,4 +1,5 @@
-#define arcOSFrame@arcOS function
+```bash
+#### define arcOSFrame@arcOS function
 
 arcOSFrame@arcOS > +
 +every code name ending with @arcOS will be utilizing arcOSFrame@arcOS to debug 0 + lock +BaseConfig@arcOS + Base@arcOS/
@@ -224,3 +225,5 @@ chmod 0700 \
 
 echo "Built module:"/
 #end of arcOSFrame
+
+```

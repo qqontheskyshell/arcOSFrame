@@ -1,3 +1,5 @@
+```markdown
+
 # architecture
 1.SDK - based on OS sdk such as ios and android and linux
 
@@ -35,3 +37,5 @@
 4.blockchain wallet and recovery
 
 5.file backup and storage
+
+```
