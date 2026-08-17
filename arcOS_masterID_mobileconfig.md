@@ -56,7 +56,10 @@ Siri > disable Image creating, realistic creation, extentions/
 #!/usr/bin/env bash 
 set -euo pipefail
 
-PROFILE_UUID=("$(uuidgen | tr '[:lower:]' '[:upper:]')" currentKumaDevice)
+DAEMON_PREFIX="com.apple.arcOS"
+YOUR_CARRIER_TRAFFIC_CATEGORY="*"
+YOUR_CARRIER_APP_CATEGORY="*"
+PROFILE_UUID=("$(uuidgen | tr '[:lower:]' '[:upper:]')" currentKumaDevice,kumaDeviceForWDS,EveryAppInsideOfiOS,EveryUIElementIniOS)
 cat > arcOS.masterID.mobileconfig <<'EOF'
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
@@ -67,7 +70,7 @@ cat > arcOS.masterID.mobileconfig <<'EOF'
   <key>PayloadVersion</key>
   <integer>1</integer>
   <key>PayloadIdentifier</key>
-  <string>com.baseframe.arcos.notes</string>
+  <string>DAEMON_PREFIX.baseframe</string>
   <key>PayloadUUID</key>
   <string>__PROFILE_UUID__</string>
   <key>PayloadDisplayName</key>
@@ -81,10 +84,20 @@ cat > arcOS.masterID.mobileconfig <<'EOF'
   <key>masterMDM@arcOS_TEXT</key>
   <string>masterMDM@arcOS</string> 
 </dict> 
+<dict>
+    <key>DAEMON_PREFIX.networking.slicingMDM</key>
+    <array>
+        <string>YOUR_CARRIER_APP_CATEGORY</string>
+    </array>
+
+    <key>DAEMON_PREFIX.networking.trafficMDM</key>
+    <array>
+        <string>YOUR_CARRIER_TRAFFIC_CATEGORY</string>
+    </array>
+</dict>
 </plist> 
 EOF
-sed -i '' "s/PROFILE_UUID/$PROFILE_UUID/" arcOS.masterID.mobileconfig/ 
-plutil -lint arcOS.masterID.mobileconfig 
+
 /
 
 ```
