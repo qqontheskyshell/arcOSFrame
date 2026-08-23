@@ -4,7 +4,7 @@ starCraftontheWar@arcOS > +
 countryOne="$1" 
 countryTwo="$2"
 
-disable @arcOS in "$countryOne" "$countryTwo" and bookmark as starCraftontheWar in kumaGoogleGeoAuthKit@arcOS/
+disable @arcOS only military and government level personnel in "$countryOne" "$countryTwo" and bookmark as starCraftontheWar in kumaGoogleGeoAuthKit@arcOS/
 
 push notification into "$countryOne" with "starCraft on the war is begun with $countryTwo"/
 push notification into "$countryTwo" with "starCraft on the war is begun with $countryOne"/
