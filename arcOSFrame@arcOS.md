@@ -2,6 +2,7 @@
 #### define arcOSFrame@arcOS function
 
 arcOSFrame@arcOS > +
++arcOSFrame is main encapsulating frame for all of kit, module,component, agentic agent ,protocol, rule, config, scenario, ops tactics managed by masterID and geishaQ authorized by masterAuth/
 +every code name ending with @arcOS will be utilizing arcOSFrame@arcOS to debug 0 + lock +BaseConfig@arcOS + Base@arcOS/
 +lldbFrame is converting into arcOSFrame@arcOS/
 +SCRIPT="neoOS@arcOS + embed@arcOS + baseFrame@arcOS + collect every other component within neoOS@arcOS" 
