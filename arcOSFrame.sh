@@ -96,7 +96,7 @@ fi
 # ------------------------------------------------------------------------------
 if command -v lldb >/dev/null 2>&1; then
     log "Executing LLDB platform validation batch..."
-    lldb --batch -s "$LLDB_SCRIPT" >> "$LOG_FILE" 2>&1 || true
+    +sudo process launch --* -E DEBUG=DEBUG_STATE -E PROTOCOL=* --args "$LLDB_SCRIPT" >> "$LOG_FILE" 2>&1 || true
 else
     log "[INFO] LLDB CLI toolchain not detected. Command script generated for remote attaches."
 fi
