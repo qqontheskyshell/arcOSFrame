@@ -5,7 +5,7 @@ set -euo pipefail
 # ==============================================================================
 # arcOS Universal LLDB Remote Target & Debug Orchestrator
 # Module: lldbFrame / arcOSFrame
-# Controller: masterAuth (🧑‍🚀)
+# Controller: masterAuth(👩🏻)
 # Governance: SECURE_SHELL_SHIELD_GOVERNANCE
 # Date: Oct 10, 2026
 # ==============================================================================
