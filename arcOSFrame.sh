@@ -71,7 +71,7 @@ platform select remote-watchos
 platform select remote-gdb-server
 
 # Default Target Security Settings
-settings set target.disable-aslr true
+settings set target.disable-aslr false
 settings set target.process.follow-fork-mode child
 EOF
 
