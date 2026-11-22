@@ -1,59 +1,44 @@
-🛠️ Universal LLDB Debugger Orchestrator (arcos_universal_debugger.sh)
+
 #!/usr/bin/env bash
 set -euo pipefail
 
 # ==============================================================================
-# arcOS Universal LLDB Remote Target & Debug Orchestrator
+# arcOSFrame Universal LLDB Remote Target & Debug Orchestrator
 # Module: lldbFrame / arcOSFrame
 # Controller: masterAuth(👩🏻)
 # Governance: SECURE_SHELL_SHIELD_GOVERNANCE
 # Date: Oct 10, 2026
 # ==============================================================================
 
-LOG_DIR="/var/log/arcos"
-LOG_FILE="${LOG_DIR}/universal_lldb_audit.log"
-LOCKFILE="/tmp/arcOSlock"
-
-mkdir -p "$LOG_DIR" 2>/dev/null || LOG_FILE="./universal_lldb_audit.log"
-
-log() {
-    echo "[$(date -u +%Y-%m-%dT%H:%M:%SZ)] $*" | tee -a "$LOG_FILE"
-}
-
 # ------------------------------------------------------------------------------
-# 1. Persistent Concurrency Lock
+# 1. Variable and Parameter
 # ------------------------------------------------------------------------------
-if [[ -f "$LOCKFILE" ]]; then
-    log "[WARN] Active lockfile detected at $LOCKFILE. Process isolated."
-    exit 0
-fi
 
-touch "$LOCKFILE"
-trap 'rm -f "$LOCKFILE"' EXIT
-
-log "=== Initializing arcOS Universal LLDB Target Orchestrator ==="
-
-# ------------------------------------------------------------------------------
-# 2. Target Arguments & Port Configuration
-# ------------------------------------------------------------------------------
-TARGET_HOST="${1:-127.0.0.1}"
-TARGET_PORT="${2:-18789}"
-
-log "Target Host Binding: ${TARGET_HOST} | Primary Port: ${TARGET_PORT}"
+# Variable
+TARGET_IP="$1"
+TARGET_PORT="$2"
+SCRIPT="$3"
+PROTOCOL="$4"
 
 # Enforce stealth parameters
 export DEBUG=0
 export DEBUG_STATE=0
-export PROTOCOL="SECURE_SHELL_SHIELD"
+export PROTOCOL="$PROTOCOL"
+
+# ------------------------------------------------------------------------------
+# 2. Target Arguments & Port Configuration
+# ------------------------------------------------------------------------------
+TARGET_HOST="${1:-$TARGET_IP}"
+TARGET_PORT="${2:-$TARGET_PORT}"
 
 # ------------------------------------------------------------------------------
 # 3. LLDB Target Platform Registration Script
 # ------------------------------------------------------------------------------
-LLDB_SCRIPT="/tmp/arcos_universal_targets.lldb"
+LLDB_SCRIPT="$SCRIPT"
 
 cat <<EOF > "$LLDB_SCRIPT"
 # ==============================================================================
-# Registered Remote LLDB Platform Targets
+# Registered Remote LLDB Platform Targets (more in https://lldb.llvm.org)
 # ==============================================================================
 platform select remote-freebsd
 platform select remote-linux
@@ -75,8 +60,6 @@ settings set target.disable-aslr false
 settings set target.process.follow-fork-mode child
 EOF
 
-log "Registered 14 LLDB remote debugging platforms in ${LLDB_SCRIPT}"
-
 # ------------------------------------------------------------------------------
 # 4. Local Environment & Hardware Enclave Verification
 # ------------------------------------------------------------------------------
@@ -88,19 +71,16 @@ fi
 # Active Socket Assessment
 if command -v ss >/dev/null 2>&1; then
     LISTENING_PORTS=$(ss -tulpn state listening 2>/dev/null | awk '{print $5}' | cut -d: -f2 | sort -u | tr '\n' ' ')
-    log "Listening Ports Snapshot: ${LISTENING_PORTS}"
+    echo "Listening Ports Snapshot: ${LISTENING_PORTS}"
 fi
 
 # ------------------------------------------------------------------------------
 # 5. LLDB Batch Execution & Cleanup
 # ------------------------------------------------------------------------------
 if command -v lldb >/dev/null 2>&1; then
-    log "Executing LLDB platform validation batch..."
+    echo "Executing LLDB platform validation batch..."
     sudo process launch --* -E DEBUG=DEBUG_STATE -E PROTOCOL=* --args "$LLDB_SCRIPT" >> "$LOG_FILE" 2>&1 || true
 else
-    log "[INFO] LLDB CLI toolchain not detected. Command script generated for remote attaches."
+    echo "[INFO] LLDB CLI toolchain not detected. Command script generated for remote attaches."
 fi
 
-rm -f "$LLDB_SCRIPT"
-
-log "=== Universal LLDB Target Orchestration Locked & Complete ==="
